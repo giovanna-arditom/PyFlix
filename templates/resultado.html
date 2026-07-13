@@ -15,13 +15,23 @@
 
         {% if item %}
             <div class="recommendation-card">
-                <div class="card-rating-badge">★ {{ item.nota }}</div>
-                <h2 class="card-title">{{ item.titulo }}</h2>
-                <div class="card-meta">
-                    <span>{{ item.tipo.capitalize() }}</span>
-                    <span>Classificação: {{ item.classificacao }}+</span>
+                <div class="card-body">
+                    <div class="card-info">
+                        <h2 class="card-title">{{ item.titulo }}</h2>
+                        <div class="card-meta">
+                            <span>{{ item.tipo.capitalize() }}</span>
+                            <span>Classificação: {{ item.classificacao }}+</span>
+                            <span>{{ contador }}</span>
+                        </div>
+                        <p class="card-synopsis">{{ item.sinopse }}</p>
+                    </div>
+                    <div class="card-side">
+                        <span class="card-rating">★ {{ item.nota }}</span>
+                        {% if item.poster %}
+                            <img src="{{ item.poster }}" alt="Pôster de {{ item.titulo }}" class="card-poster">
+                        {% endif %}
+                    </div>
                 </div>
-                <p class="card-synopsis">{{ item.sinopse }}</p>
 
                 <div class="watch-providers">
                     <label class="filter-label">Onde assistir</label>
@@ -31,9 +41,15 @@
                 </div>
 
                 <div class="action-buttons">
-                    <a href="/recomendar?{{ filtros }}" class="btn-secondary btn-reroll">🔄 Outra recomendação</a>
+                    <a href="/proxima" class="btn-secondary btn-reroll">🔄 Próxima recomendação</a>
                     <a href="/" class="btn-secondary">⬅ Voltar aos filtros</a>
                 </div>
+            </div>
+        {% elif acabou %}
+            <div class="panel">
+                <p>Você já viu todas as recomendações que batiam com esses filtros!</p>
+                <br>
+                <a href="/" class="btn-secondary">⬅ Voltar aos filtros</a>
             </div>
         {% else %}
             <div class="panel">

@@ -11,7 +11,6 @@
 
         <div class="header">
             <img src="{{ url_for('static', filename='images/logo.png') }}" alt="PyFlix">
-            <p>Encontre seu próximo filme ou série favorita</p>
         </div>
 
         <form action="/recomendar" method="get">
@@ -20,7 +19,7 @@
                 <h2 class="panel-title">Filtros</h2>
 
                 <div class="filter-group">
-                    <label class="filter-label" for="idade_slider">Classificação etária máxima</label>
+                    <label class="filter-label" for="idade_slider">Classificação etária</label>
                     <div class="range-container">
                         <span class="range-output" id="valor-idade">18 Anos</span>
                         <input type="range" id="idade_slider" min="0" max="5" step="1" value="5"
@@ -69,6 +68,18 @@
                     </div>
                 </div>
 
+                <div class="filter-group where-to-watch">
+                    <label class="filter-label">Onde assistir</label>
+                    <div class="checkbox-grid">
+                        {% for plataforma in plataformas %}
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="onde" value="{{ plataforma }}">
+                                <div class="checkbox-button">{{ plataforma }}</div>
+                            </label>
+                        {% endfor %}
+                    </div>
+                </div>
+
                 <div class="filter-group want-to-see">
                     <label class="filter-label">Quero ver (marque um ou mais)</label>
                     <div class="checkbox-grid">
@@ -106,8 +117,18 @@
         function atualizarIdade(indice) {
             const valor = classificacoes[indice];
             document.getElementById('idade').value = valor;
-            document.getElementById('valor-idade').innerText = (valor === 0 ? 'Livre' : valor + ' anos');
+            document.getElementById('valor-idade').innerText = (valor === 0 ? 'Livre' : valor + ' Anos');
+            preencherSlider(indice);
         }
+
+        function preencherSlider(indice) {
+            const slider = document.getElementById('idade_slider');
+            const porcentagem = (indice / slider.max) * 100;
+            slider.style.background =
+                `linear-gradient(to right, var(--color-primary) 0%, var(--color-primary) ${porcentagem}%, var(--bg-card) ${porcentagem}%, var(--bg-card) 100%)`;
+        }
+
+        preencherSlider(document.getElementById('idade_slider').value);
     </script>
 
 </body>
