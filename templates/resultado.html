@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>PyFlix - Recomendação</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <img src="{{ url_for('static', filename='images/logo.jpg') }}" alt="PyFlix">
+        </div>
+
+        {% if item %}
+            <div class="recommendation-card">
+                <div class="card-rating-badge">★ {{ item.nota }}</div>
+                <h2 class="card-title">{{ item.titulo }}</h2>
+                <div class="card-meta">
+                    <span>{{ item.tipo.capitalize() }}</span>
+                    <span>Classificação: {{ item.classificacao }}+</span>
+                </div>
+                <p class="card-synopsis">{{ item.sinopse }}</p>
+
+                <div class="watch-providers">
+                    <label class="filter-label">Onde assistir</label>
+                    <div class="providers-list">
+                        <span class="provider-pill">{{ item.onde }}</span>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <a href="/recomendar?{{ filtros }}" class="btn-secondary btn-reroll">🔄 Outra recomendação</a>
+                    <a href="/" class="btn-secondary">⬅ Voltar aos filtros</a>
+                </div>
+            </div>
+        {% else %}
+            <div class="panel">
+                <p>Nenhum conteúdo encontrado com esses filtros. Tente ser menos específica!</p>
+                <br>
+                <a href="/" class="btn-secondary">⬅ Voltar aos filtros</a>
+            </div>
+        {% endif %}
+
+    </div>
+
+</body>
+</html>

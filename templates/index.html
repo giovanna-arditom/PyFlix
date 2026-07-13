@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>PyFlix</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <img src="{{ url_for('static', filename='images/logo.jpg') }}" alt="PyFlix">
+            <p>Encontre seu próximo filme ou série favorita</p>
+        </div>
+
+        <form action="/recomendar" method="get">
+
+            <div class="panel">
+                <h2 class="panel-title">Filtros</h2>
+
+                <div class="filter-group">
+                    <label class="filter-label" for="idade">Classificação etária máxima</label>
+                    <div class="range-container">
+                        <span class="range-output" id="valor-idade">18 Anos</span>
+                        <input type="range" id="idade" name="idade" min="0" max="18" step="2" value="18"
+                               oninput="document.getElementById('valor-idade').innerText = this.value + ' Anos'">
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label">Nota mínima</label>
+                    <div class="input-number-wrapper">
+                        <input type="number" name="nota_min" min="0" max="10" step="0.1" placeholder="Ex: 7.5">
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label">Tipo de conteúdo</label>
+                    <div class="radio-tile-group">
+                        <label class="radio-tile-label">
+                            <input type="radio" name="tipo" value="qualquer" checked>
+                            <div class="radio-tile-content">Filmes e Séries</div>
+                        </label>
+                        <label class="radio-tile-label">
+                            <input type="radio" name="tipo" value="filme">
+                            <div class="radio-tile-content">Filme</div>
+                        </label>
+                        <label class="radio-tile-label">
+                            <input type="radio" name="tipo" value="serie">
+                            <div class="radio-tile-content">Série</div>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="filter-group want-to-see">
+                    <label class="filter-label">Quero ver (marque um ou mais)</label>
+                    <div class="checkbox-grid">
+                        {% for genero in generos %}
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="genero_quero" value="{{ genero }}">
+                                <div class="checkbox-button">{{ nomes_genero.get(genero, genero.capitalize()) }}</div>
+                            </label>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <div class="filter-group dont-want-to-see">
+                    <label class="filter-label">Não quero ver</label>
+                    <div class="checkbox-grid">
+                        {% for genero in generos %}
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="genero_nao_quero" value="{{ genero }}">
+                                <div class="checkbox-button">{{ nomes_genero.get(genero, genero.capitalize()) }}</div>
+                            </label>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-submit">🎲 Gerar recomendação</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

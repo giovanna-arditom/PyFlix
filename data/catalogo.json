@@ -1,0 +1,772 @@
+[
+  {
+    "titulo": "Top Gun: Maverick",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "drama"
+    ],
+    "classificacao": 12,
+    "nota": 8.3,
+    "sinopse": "Top Gun: Maverick acompanha Maverick, um experiente piloto da Marinha, que retorna à escola Top Gun para treinar uma nova equipe em uma missão de alto risco. Enquanto prepara os jovens pilotos, ele também precisa enfrentar lembranças do passado e conflitos pessoais.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "Mad Max: Estrada da Fúria",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "ficcao cientifica"
+    ],
+    "classificacao": 16,
+    "nota": 8.1,
+    "sinopse": "Mad Max: Estrada da Fúria, em um deserto pós-apocalíptico, Max une-se  à Imperatriz Furiosa para fugir de m tirano brutal enquanto atravessavam o deserto em uma perseguição explosiva.",
+    "onde": "HBO Max",
+    "assistido": false
+  },
+  {
+    "titulo": "Coringa",
+    "tipo": "filme",
+    "genero": [
+      "suspense",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 8.4,
+    "sinopse": "Coringa , onde um homem solitário e com problemas mentais, ignorado pela sociedade, mergulha lentamente na loucura e transforma-se no temido vilão.",
+    "onde": "HBO Max",
+    "assistido": false
+  },
+  {
+    "titulo": "Forrest Gump",
+    "tipo": "filme",
+    "genero": [
+      "drama",
+      "romance"
+    ],
+    "classificacao": 12,
+    "nota": 8.8,
+    "sinopse": "Forrest Gump , onde um homem simples e bondoso atravessa décadas da história dos Estados Unidos, vivendo acontecimentos extraordinários enquanto busca o amor de sua vida.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "A Lista de Schindler",
+    "tipo": "filme",
+    "genero": [
+      "drama",
+      "suspense"
+    ],
+    "classificacao": 14,
+    "nota": 9.0,
+    "sinopse": "A Lista de Schindler, Durante o Holocausto, um empresário alemão passa a proteger judeus da perseguição nazista, salvando centenas de vidas.",
+    "onde": "HBO Max",
+    "assistido": false
+  },
+  {
+    "titulo": "O Resgate do Soldado Ryan",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 8.6,
+    "sinopse": "O Resgate do Soldado Ryan,  após o Dia D na Segunda Guerra Mundial, um grupo de soldados americanos recebe a missão de encontrar e trazer para casa um paraquedista perdido atrás das linhas inimigas.",
+    "onde": "Prime Video",
+    "assistido": false
+  },
+  {
+    "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "fantasia"
+    ],
+    "classificacao": 12,
+    "nota": 8.8,
+    "sinopse": "O Senhor dos Anéis — Um hobbit recebe um anel poderoso e parte em uma jornada para destruí-lo antes que o mal domine a Terra-média",
+    "onde": "HBO Max",
+    "assistido": false
+  },
+  {
+    "titulo": "Harry Potter e a Pedra Filosofal",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "fantasia"
+    ],
+    "classificacao": 0,
+    "nota": 7.6,
+    "sinopse": "Harry Potter e a Pedra Filosofal, um garoto descobre que é bruxo e inicia seus estudos em Hogwarts, onde enfrenta mistérios ligados ao seu passado.",
+    "onde": "HBO Max",
+    "assistido": false
+  },
+  {
+    "titulo": "O Rei Leão",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "drama"
+    ],
+    "classificacao": 0,
+    "nota": 8.5,
+    "sinopse": "Um jovem leão precisa aceitar seu destino como rei após a morte de seu pai.",
+    "onde": "Disney +",
+    "assistido": false
+  },
+  {
+    "titulo": "Oldboy",
+    "tipo": "filme",
+    "genero": [
+      "suspense",
+      "drama"
+    ],
+    "classificacao": 18,
+    "nota": 8.4,
+    "sinopse": "Um homem é preso misteriosamente por anos e busca vingança ao ser libertado sem explicações.",
+    "onde": "Prime Video",
+    "assistido": false
+  },
+  {
+    "titulo": "Precisamos Falar Sobre o Kevin",
+    "tipo": "filme",
+    "genero": [
+      "suspense",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 7.5,
+    "sinopse": "Uma mãe relembra a criação de seu filho após um acontecimento trágico envolvendo ele.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "Mamma Mia!",
+    "tipo": "filme",
+    "genero": [
+      "romance",
+      "comedia",
+      "musical"
+    ],
+    "classificacao": 10,
+    "nota": 6.4,
+    "sinopse": "Uma jovem tenta descobrir quem é seu pai antes do casamento, ao som das músicas do ABBA.",
+    "onde": "Prime Video",
+    "assistido": false
+  },
+  {
+    "titulo": "Duna: Parte 2",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "ficcao cientifica"
+    ],
+    "classificacao": 14,
+    "nota": 8.6,
+    "sinopse": "Paul Atreides junta-se aos Fremen para buscar vingança contra aqueles que destruíram sua família, enquanto enfrenta seu destino como possível messias.",
+    "onde": "HBO Max",
+    "assistido": false
+  },
+  {
+    "titulo": "Interestelar",
+    "tipo": "filme",
+    "genero": [
+      "ficcao cientifica",
+      "drama"
+    ],
+    "classificacao": 10,
+    "nota": 8.7,
+    "sinopse": "Em um futuro de escassez na Terra, um grupo de astronautas atravessa um buraco de minhoca em busca de um novo lar para a humanidade.",
+    "onde": "HBO Max",
+    "assistido": false
+  },
+  {
+    "titulo": "Blade Runner 2049",
+    "tipo": "filme",
+    "genero": [
+      "ficcao cientifica",
+      "suspense"
+    ],
+    "classificacao": 14,
+    "nota": 8.0,
+    "sinopse": "Em Blade Runner 2049, um caçador de replicantes descobre um segredo capaz de abalar a sociedade e parte em busca do desaparecido Rick Deckard.",
+    "onde": "Prime Video",
+    "assistido": false
+  },
+  {
+    "titulo": "O Jogo Da Imitação",
+    "tipo": "filme",
+    "genero": [
+      "ficcao cientifica",
+      "drama"
+    ],
+    "classificacao": 14,
+    "nota": 8.0,
+    "sinopse": "A história de Alan Turing e sua equipe tentando decifrar os códigos nazistas durante a Segunda Guerra Mundial.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "Gravidade",
+    "tipo": "filme",
+    "genero": [
+      "ficcao cientifica",
+      "suspense"
+    ],
+    "classificacao": 12,
+    "nota": 7.7,
+    "sinopse": "Astronautas ficam perdidos no espaço após um acidente destruir sua nave.",
+    "onde": "HBO Max",
+    "assistido": false
+  },
+  {
+    "titulo": "Homem-Aranha no Aranhaverso",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "animacao"
+    ],
+    "classificacao": 10,
+    "nota": 8.6,
+    "sinopse": "Em Homem-Aranha no Aranhaverso, Miles Morales descobre seus poderes e encontra diferentes versões do Homem-Aranha vindas de universos paralelos.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "Shrek",
+    "tipo": "filme",
+    "genero": [
+      "comedia",
+      "animacao"
+    ],
+    "classificacao": 0,
+    "nota": 7.9,
+    "sinopse": "Shrek, um ogro rabugento embarca em uma aventura para resgatar uma princesa e acaba formando amizades improváveis.",
+    "onde": "Prime Video",
+    "assistido": false
+  },
+  {
+    "titulo": "Divertida Mente",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "comedia"
+    ],
+    "classificacao": 0,
+    "nota": 8.1,
+    "sinopse": "As emoções de uma garota tentam ajudá-la a lidar com mudanças difíceis em sua vida.",
+    "onde": "Disney +",
+    "assistido": false
+  },
+  {
+    "titulo": "O Auto da Compadecida",
+    "tipo": "filme",
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "classificacao": 12,
+    "nota": 8.6,
+    "sinopse": "Em O Auto da Compadecida, João Grilo e Chicó usam astúcia e humor para sobreviver no sertão nordestino, enfrentando injustiças e confusões.",
+    "onde": "Globoplay",
+    "assistido": false
+  },
+  {
+    "titulo": "Se Beber Não Case",
+    "tipo": "filme",
+    "genero": [
+      "comedia",
+      "romance"
+    ],
+    "classificacao": 16,
+    "nota": 7.7,
+    "sinopse": "Dois amigos invadem casamentos para se divertir, mas acabam se envolvendo romanticamente.",
+    "onde": "HBO Max",
+    "assistido": false
+  },
+  {
+    "titulo": "Superbad",
+    "tipo": "filme",
+    "genero": [
+      "comedia",
+      "romance"
+    ],
+    "classificacao": 16,
+    "nota": 7.7,
+    "sinopse": "Dois adolescentes tentam aproveitar ao máximo uma festa antes de irem para a faculdade.",
+    "onde": "HBO Max",
+    "assistido": false
+  },
+  {
+    "titulo": "Oppenheimer",
+    "tipo": "filme",
+    "genero": [
+      "suspense",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 8.3,
+    "sinopse": "Oppenheimer conta a trajetória do físico J. Robert Oppenheimer e o desenvolvimento da bomba atômica durante a Segunda Guerra Mundial.",
+    "onde": "Prime Video",
+    "assistido": false
+  },
+  {
+    "titulo": "Parasita",
+    "tipo": "filme",
+    "genero": [
+      "suspense",
+      "comedia"
+    ],
+    "classificacao": 16,
+    "nota": 8.5,
+    "sinopse": "Uma família pobre infiltra-se na vida de uma família rica, dando início a uma série de acontecimentos inesperados e tensos.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "Corra!",
+    "tipo": "filme",
+    "genero": [
+      "suspense",
+      "ficcao cientifica"
+    ],
+    "classificacao": 16,
+    "nota": 7.7,
+    "sinopse": "Um jovem percebe acontecimentos perturbadores ao visitar a família de sua namorada.",
+    "onde": "Prime Video",
+    "assistido": false
+  },
+  {
+    "titulo": "Whiplash",
+    "tipo": "filme",
+    "genero": [
+      "suspense",
+      "drama"
+    ],
+    "classificacao": 14,
+    "nota": 8.5,
+    "sinopse": "Um baterista talentoso enfrenta métodos extremos de um professor obcecado pela perfeição.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "A Origem",
+    "tipo": "filme",
+    "genero": [
+      "ficcao cientifica",
+      "acao"
+    ],
+    "classificacao": 14,
+    "nota": 8.8,
+    "sinopse": "Em A Origem, Um ladrão especializado em invadir sonhos recebe a missão de implantar uma ideia na mente de um empresário, enfrentando camadas cada vez mais profundas da realidade.",
+    "onde": "Globoplay",
+    "assistido": false
+  },
+  {
+    "titulo": "Clube da Luta",
+    "tipo": "filme",
+    "genero": [
+      "suspense",
+      "drama"
+    ],
+    "classificacao": 18,
+    "nota": 8.8,
+    "sinopse": "Um homem insatisfeito cria um clube secreto de lutas que foge do controle.",
+    "onde": "HBO Max",
+    "assistido": false
+  },
+  {
+    "titulo": "Quebrando a Banca",
+    "tipo": "filme",
+    "genero": [
+      "suspense",
+      "comedia"
+    ],
+    "classificacao": 12,
+    "nota": 7.1,
+    "sinopse": "Estudantes usam matemática para contar cartas em cassinos e ganhar dinheiro.",
+    "onde": "Netlix",
+    "assistido": false
+  },
+  {
+    "titulo": "Titanic",
+    "tipo": "filme",
+    "genero": [
+      "romance",
+      "drama"
+    ],
+    "classificacao": 12,
+    "nota": 7.9,
+    "sinopse": "Um romance nasce a bordo do Titanic enquanto o navio segue rumo ao desastre.",
+    "onde": "Disney +",
+    "assistido": false
+  },
+  {
+    "titulo": "La La Land",
+    "tipo": "filme",
+    "genero": [
+      "romance",
+      "comedia",
+      "musical"
+    ],
+    "classificacao": 10,
+    "nota": 8.0,
+    "sinopse": "Uma atriz e um pianista apaixonam-se, mas o sucesso profissional desafia seus sonhos e relacionamento.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "The Boys",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "comedia"
+    ],
+    "classificacao": 18,
+    "nota": 8.7,
+    "sinopse": "Em um mundo onde super-heróis são corruptos e manipulados por uma empresa poderosa, um grupo de vigilantes tenta expor seus crimes.",
+    "onde": "Prime Video",
+    "assistido": false
+  },
+  {
+    "titulo": "Game of Thrones",
+    "tipo": "serie",
+    "genero": [
+      "fantasia",
+      "drama"
+    ],
+    "classificacao": 18,
+    "nota": 9.2,
+    "sinopse": "Famílias nobres guerreiam pelo Trono de Ferro enquanto uma ameaça sobrenatural coloca a humanidade em perigo.",
+    "onde": "HBO Max",
+    "assistido": false
+  },
+  {
+    "titulo": "The Witcher",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "fantasia"
+    ],
+    "classificacao": 16,
+    "nota": 8.2,
+    "sinopse": "Um caçador de monstros mutante protege uma princesa poderosa enquanto enfrenta guerras, magia e perigos no sombrio Continente.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "Stranger Things",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "fantasia"
+    ],
+    "classificacao": 16,
+    "nota": 8.2,
+    "sinopse": "Um grupo de crianças enfrenta forças sobrenaturais e uma dimensão sombria enquanto procuram um amigo desaparecido.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "How I Met Your Mother",
+    "tipo": "serie",
+    "genero": [
+      "comedia",
+      "romance"
+    ],
+    "classificacao": 12,
+    "nota": 8.3,
+    "sinopse": "Ted revive memórias sobre amizades, amadurecimento e sua longa busca pelo amor verdadeiro.",
+    "onde": "Disney +",
+    "assistido": false
+  },
+  {
+    "titulo": "Chernobyl",
+    "tipo": "serie",
+    "genero": [
+      "drama",
+      "suspense"
+    ],
+    "classificacao": 16,
+    "nota": 9.4,
+    "sinopse": "O maior desastre nuclear da história expõe falhas humanas, segredos soviéticos e consequências devastadoras para milhares de vidas.",
+    "onde": "HBO Max",
+    "assistido": false
+  },
+  {
+    "titulo": "Band of Brothers",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 9.4,
+    "sinopse": "Soldados de elite enfrentam os horrores da Segunda Guerra enquanto constroem laços profundos de coragem e amizade.",
+    "onde": "HBO Max",
+    "assistido": false
+  },
+  {
+    "titulo": "Sherlock",
+    "tipo": "serie",
+    "genero": [
+      "suspense",
+      "drama"
+    ],
+    "classificacao": 14,
+    "nota": 9.1,
+    "sinopse": "Um detetive genial e seu fiel parceiro solucionam crimes complexos na moderna e caótica Londres contemporânea.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "Euphoria",
+    "tipo": "serie",
+    "genero": [
+      "drama",
+      "romance"
+    ],
+    "classificacao": 18,
+    "nota": 8.4,
+    "sinopse": "Jovens enfrentam traumas, vícios, relacionamentos e conflitos emocionais enquanto tentam encontrar sentido em suas vidas.",
+    "onde": "HBO Max",
+    "assistido": false
+  },
+  {
+    "titulo": "Cobra Kai",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "drama"
+    ],
+    "classificacao": 12,
+    "nota": 8.5,
+    "sinopse": "Décadas após Karatê Kid, Johnny Lawrence reabre o dojô Cobra Kai, reacendendo sua rivalidade com Daniel LaRusso.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "The Last Of Us",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "suspense"
+    ],
+    "classificacao": 16,
+    "nota": 8.7,
+    "sinopse": "Em um mundo devastado por uma infecção fúngica, Joel precisa escoltar a jovem Ellie através dos Estados Unidos em busca de esperança para a humanidade.",
+    "onde": "HBO Max",
+    "assistido": false
+  },
+  {
+    "titulo": "Peaky Blinders",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 8.8,
+    "sinopse": "Uma família criminosa constrói um império poderoso enquanto enfrenta guerras, traições e disputas pelo poder na Inglaterra.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "Vikings",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 8.5,
+    "sinopse": "Um guerreiro nórdico desafia reis e impérios enquanto busca poder, conquistas e glória para seu povo.",
+    "onde": "Prime Video",
+    "assistido": false
+  },
+  {
+    "titulo": "Dark",
+    "tipo": "serie",
+    "genero": [
+      "ficcao cientifica",
+      "suspense"
+    ],
+    "classificacao": 16,
+    "nota": 8.7,
+    "sinopse": "O desaparecimento de crianças em uma pequena cidade alemã revela uma complexa trama envolvendo viagens no tempo e segredos familiares.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "Black Mirror",
+    "tipo": "serie",
+    "genero": [
+      "ficcao cientifica",
+      "suspense"
+    ],
+    "classificacao": 16,
+    "nota": 8.7,
+    "sinopse": "Uma série antológica que explora os impactos sombrios da tecnologia e da sociedade moderna em histórias perturbadoras e futuristas.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "Ruptura",
+    "tipo": "serie",
+    "genero": [
+      "ficcao cientifica",
+      "drama"
+    ],
+    "classificacao": 14,
+    "nota": 8.7,
+    "sinopse": "Funcionários de uma empresa têm suas memórias separadas entre vida pessoal e trabalho, mas começam a desconfiar dos verdadeiros objetivos da corporação.",
+    "onde": "Prime Video",
+    "assistido": false
+  },
+  {
+    "titulo": "Westworld",
+    "tipo": "serie",
+    "genero": [
+      "ficcao cientifica",
+      "suspense"
+    ],
+    "classificacao": 16,
+    "nota": 8.6,
+    "sinopse": "Androides conscientes se rebelam contra humanos em um parque futurista onde desejos e violência não possuem limites.",
+    "onde": "HBO Max",
+    "assistido": false
+  },
+  {
+    "titulo": "Arcane",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "animacao"
+    ],
+    "classificacao": 14,
+    "nota": 9.0,
+    "sinopse": "Em meio ao conflito entre duas cidades rivais, duas irmãs acabam em lados opostos de uma guerra marcada por tecnologia e poder.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "Avatar: A Lenda de Aang",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "animacao"
+    ],
+    "classificacao": 0,
+    "nota": 9.3,
+    "sinopse": "Um jovem Avatar desperta após cem anos para restaurar o equilíbrio de um mundo devastado pela guerra.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "The Bear",
+    "tipo": "serie",
+    "genero": [
+      "drama",
+      "suspense"
+    ],
+    "classificacao": 16,
+    "nota": 8.6,
+    "sinopse": "Um chef premiado retorna à Chicago após tragédia familiar, enfrentando caos, dívidas e desafios no restaurante familiar.",
+    "onde": "Disney +",
+    "assistido": false
+  },
+  {
+    "titulo": "Brooklyn Nine-Nine",
+    "tipo": "serie",
+    "genero": [
+      "drama",
+      "comedia",
+      "sitcom"
+    ],
+    "classificacao": 12,
+    "nota": 8.4,
+    "sinopse": "Uma delegacia de polícia no Brooklyn vive casos criminais e situações absurdamente engraçadas lideradas pelo detetive Jake Peralta.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "Breaking Bad",
+    "tipo": "serie",
+    "genero": [
+      "drama",
+      "suspense"
+    ],
+    "classificacao": 16,
+    "nota": 9.5,
+    "sinopse": "Em Breaking Bad, um professor de química com câncer começa a produzir metanfetamina para sustentar a família e acaba mergulhando no mundo do crime.",
+    "onde": "netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "Sucession",
+    "tipo": "serie",
+    "genero": [
+      "drama",
+      "comedia"
+    ],
+    "classificacao": 16,
+    "nota": 8.9,
+    "sinopse": "Em Sucession, os membros de uma família bilionária disputam o controle de um império de mídia enquanto enfrentam traições e conflitos internos.",
+    "onde": "Prime Video",
+    "assistido": false
+  },
+  {
+    "titulo": "The Office",
+    "tipo": "serie",
+    "genero": [
+      "sitcom",
+      "comedia"
+    ],
+    "classificacao": 12,
+    "nota": 9.0,
+    "sinopse": "Funcionários de um escritório vivem situações caóticas e hilárias durante a rotina de uma empresa de papel.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "Friends",
+    "tipo": "serie",
+    "genero": [
+      "romance",
+      "comedia"
+    ],
+    "classificacao": 12,
+    "nota": 8.9,
+    "sinopse": "Seis amigos compartilham amores, desafios e momentos inesquecíveis enquanto vivem a vida adulta em Nova York.",
+    "onde": "HBO Max",
+    "assistido": false
+  },
+  {
+    "titulo": "Virgin River",
+    "tipo": "serie",
+    "genero": [
+      "romance",
+      "drama"
+    ],
+    "classificacao": 14,
+    "nota": 7.4,
+    "sinopse": "Uma enfermeira busca recomeçar a vida em uma pequena cidade do interior, mas encontra romances, dramas e desafios inesperados.",
+    "onde": "Netflix",
+    "assistido": false
+  },
+  {
+    "titulo": "Bridgerton",
+    "tipo": "serie",
+    "genero": [
+      "romance",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 7.3,
+    "sinopse": "Jovens da alta sociedade londrina vivem romances intensos enquanto enfrentam escândalos, desejos e jogos da aristocracia.",
+    "onde": "Netflix",
+    "assistido": false
+  }
+]
