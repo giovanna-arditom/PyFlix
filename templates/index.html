@@ -10,7 +10,7 @@
     <div class="container">
 
         <div class="header">
-            <img src="{{ url_for('static', filename='images/logo.jpg') }}" alt="PyFlix">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="PyFlix">
             <p>Encontre seu próximo filme ou série favorita</p>
         </div>
 
@@ -20,18 +20,34 @@
                 <h2 class="panel-title">Filtros</h2>
 
                 <div class="filter-group">
-                    <label class="filter-label" for="idade">Classificação etária máxima</label>
+                    <label class="filter-label" for="idade_slider">Classificação etária máxima</label>
                     <div class="range-container">
                         <span class="range-output" id="valor-idade">18 Anos</span>
-                        <input type="range" id="idade" name="idade" min="0" max="18" step="2" value="18"
-                               oninput="document.getElementById('valor-idade').innerText = this.value + ' Anos'">
+                        <input type="range" id="idade_slider" min="0" max="5" step="1" value="5"
+                               oninput="atualizarIdade(this.value)">
+                        <input type="hidden" id="idade" name="idade" value="18">
                     </div>
                 </div>
 
                 <div class="filter-group">
                     <label class="filter-label">Nota mínima</label>
-                    <div class="input-number-wrapper">
-                        <input type="number" name="nota_min" min="0" max="10" step="0.1" placeholder="Ex: 7.5">
+                    <div class="radio-tile-group">
+                        <label class="radio-tile-label">
+                            <input type="radio" name="nota_min" value="" checked>
+                            <div class="radio-tile-content">Qualquer nota</div>
+                        </label>
+                        <label class="radio-tile-label">
+                            <input type="radio" name="nota_min" value="7">
+                            <div class="radio-tile-content">7+</div>
+                        </label>
+                        <label class="radio-tile-label">
+                            <input type="radio" name="nota_min" value="8">
+                            <div class="radio-tile-content">8+</div>
+                        </label>
+                        <label class="radio-tile-label">
+                            <input type="radio" name="nota_min" value="9">
+                            <div class="radio-tile-content">9+</div>
+                        </label>
                     </div>
                 </div>
 
@@ -83,6 +99,16 @@
         </form>
 
     </div>
+
+    <script>
+        const classificacoes = [0, 10, 12, 14, 16, 18];
+
+        function atualizarIdade(indice) {
+            const valor = classificacoes[indice];
+            document.getElementById('idade').value = valor;
+            document.getElementById('valor-idade').innerText = (valor === 0 ? 'Livre' : valor + ' anos');
+        }
+    </script>
 
 </body>
 </html>
