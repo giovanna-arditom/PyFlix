@@ -98,7 +98,7 @@ def adicionar_formulario():
     catalogo = carregar_catalogo()
     generos = sorted(set(genero for item in catalogo for genero in item['genero']))
     plataformas = sorted(set(item['onde'] for item in catalogo))
-    return render_template('adicionar.html', generos=generos, nomes_genero=NOMES_GENERO, plataformas=plataformas, erro=None)
+    return render_template('adicionar.html', generos=generos, nomes_genero=NOMES_GENERO, plataformas=plataformas, erro=None, dados_form=None)
 
 
 @app.route('/adicionar', methods=['POST'])
@@ -110,7 +110,8 @@ def adicionar_processar():
     senha_digitada = request.form.get('senha', '')
     if senha_digitada != SENHA_ADICIONAR:
         return render_template('adicionar.html', generos=generos, nomes_genero=NOMES_GENERO,
-                                plataformas=plataformas, erro='Senha incorreta. Tente novamente.')
+                                plataformas=plataformas, erro='Senha incorreta. Tente novamente.',
+                                dados_form=request.form)
 
     titulo = request.form.get('titulo', '').strip()
     tipo = request.form.get('tipo')
@@ -136,10 +137,10 @@ def adicionar_processar():
 
     poster = buscar_poster(titulo, tipo)
 
-    nota = buscar_nota_imdb(titulo, tipo)
-    nota_nao_encontrada = nota is None
-    if nota is None:
-        nota = 0
+    nota = request.form.get('nota', '')
+    nota = nota.replace(',', '.')
+    nota = float(nota) if nota else buscar_nota_imdb(titulo, tipo)
+
 
     novo_item = {
         'titulo': titulo,
@@ -156,8 +157,8 @@ def adicionar_processar():
     with open('data/catalogo.json', 'w', encoding='utf-8') as arquivo:
         json.dump(catalogo, arquivo, ensure_ascii=False, indent=2)
 
-    return render_template('adicionar_sucesso.html', item=novo_item, nota_nao_encontrada=nota_nao_encontrada)
+    return render_template('adicionar_sucesso.html', item=novo_item)
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=os.getenv('FLASK_DEBUG', 'False') == 'True')

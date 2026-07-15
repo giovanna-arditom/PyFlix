@@ -27,18 +27,24 @@
 
                 <div class="filter-group">
                     <label class="filter-label" for="titulo">Título completo</label>
-                    <input type="text" id="titulo" name="titulo" required>
+                    <input type="text" id="titulo" name="titulo" value="{{ dados_form.titulo if dados_form else '' }}" required>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label" for="nota">Nota no IMDb</label>
+                    <input type="number" id="nota" name="nota" step="0.1" min="0" max="10" value="{{ dados_form.nota if dados_form else '' }}" required>
                 </div>
 
                 <div class="filter-group">
                     <label class="filter-label">Tipo</label>
+                    {% set tipo_atual = dados_form.tipo if dados_form else 'filme' %}
                     <div class="radio-tile-group">
                         <label class="radio-tile-label">
-                            <input type="radio" name="tipo" value="filme" checked>
+                            <input type="radio" name="tipo" value="filme" {% if tipo_atual == 'filme' %}checked{% endif %}>
                             <div class="radio-tile-content">Filme</div>
                         </label>
                         <label class="radio-tile-label">
-                            <input type="radio" name="tipo" value="serie">
+                            <input type="radio" name="tipo" value="serie" {% if tipo_atual == 'serie' %}checked{% endif %}>
                             <div class="radio-tile-content">Série</div>
                         </label>
                     </div>
@@ -46,84 +52,87 @@
 
                 <div class="filter-group">
                     <label class="filter-label">Classificação etária</label>
+                    {% set classificacao_atual = dados_form.classificacao if dados_form else '12' %}
                     <div class="radio-tile-group tiles-classificacao">
                         <label class="radio-tile-label">
-                            <input type="radio" name="classificacao" value="0">
+                            <input type="radio" name="classificacao" value="0" {% if classificacao_atual == '0' %}checked{% endif %}>
                             <div class="radio-tile-content">Livre</div>
                         </label>
                         <label class="radio-tile-label">
-                            <input type="radio" name="classificacao" value="10">
+                            <input type="radio" name="classificacao" value="10" {% if classificacao_atual == '10' %}checked{% endif %}>
                             <div class="radio-tile-content">10</div>
                         </label>
                         <label class="radio-tile-label">
-                            <input type="radio" name="classificacao" value="12" checked>
+                            <input type="radio" name="classificacao" value="12" {% if classificacao_atual == '12' %}checked{% endif %}>
                             <div class="radio-tile-content">12</div>
                         </label>
                         <label class="radio-tile-label">
-                            <input type="radio" name="classificacao" value="14">
+                            <input type="radio" name="classificacao" value="14" {% if classificacao_atual == '14' %}checked{% endif %}>
                             <div class="radio-tile-content">14</div>
                         </label>
                         <label class="radio-tile-label">
-                            <input type="radio" name="classificacao" value="16">
+                            <input type="radio" name="classificacao" value="16" {% if classificacao_atual == '16' %}checked{% endif %}>
                             <div class="radio-tile-content">16</div>
                         </label>
                         <label class="radio-tile-label">
-                            <input type="radio" name="classificacao" value="18">
+                            <input type="radio" name="classificacao" value="18" {% if classificacao_atual == '18' %}checked{% endif %}>
                             <div class="radio-tile-content">18</div>
                         </label>
                     </div>
                 </div>
 
                 <div class="filter-group">
-                    <p class="campo-dica">A nota IMDb será buscada automaticamente pelo título, assim como o pôster.</p>
-                </div>
-
-                <div class="filter-group">
                     <label class="filter-label" for="sinopse">Sinopse</label>
                     <textarea id="sinopse" name="sinopse" rows="7" maxlength="400" required
-                              oninput="document.getElementById('contador-sinopse').innerText = this.value.length + ' / 400'"></textarea>
-                    <span class="char-counter" id="contador-sinopse">0 / 400</span>
+                              oninput="document.getElementById('contador-sinopse').innerText = this.value.length + ' / 400'">{{ dados_form.sinopse if dados_form else '' }}</textarea>
+                    <span class="char-counter" id="contador-sinopse">{{ dados_form.sinopse|length if dados_form else 0 }} / 400</span>
                 </div>
 
                 <div class="filter-group">
                     <label class="filter-label" for="onde">Onde assistir</label>
+                    {% set onde_atual = dados_form.onde if dados_form else '' %}
                     <select id="onde" name="onde" onchange="document.getElementById('grupo-onde-outro').style.display = (this.value === 'outro') ? 'block' : 'none'">
                         {% for plataforma in plataformas %}
-                            <option value="{{ plataforma }}">{{ plataforma }}</option>
+                            <option value="{{ plataforma }}" {% if plataforma == onde_atual %}selected{% endif %}>{{ plataforma }}</option>
                         {% endfor %}
-                        <option value="outro">Outro (digitar)</option>
+                        <option value="outro" {% if onde_atual == 'outro' %}selected{% endif %}>Outro (digitar)</option>
                     </select>
 
-                    <div class="campo-condicional" id="grupo-onde-outro" style="display: none;">
-                        <input type="text" name="onde_outro" placeholder="Digite a plataforma">
+                    <div class="campo-condicional" id="grupo-onde-outro" {% if onde_atual != 'outro' %}hidden{% endif %}>
+                        <input type="text" name="onde_outro" value="{{ dados_form.onde_outro if dados_form else '' }}" placeholder="Digite a plataforma">
                     </div>
                 </div>
 
                 <div class="filter-group">
                     <label class="filter-label">Gêneros do conteúdo</label>
+                    {% set generos_marcados = dados_form.getlist('genero') if dados_form else [] %}
+                    {% set generos_novos_atual = dados_form.generos_novos if dados_form else '' %}
                     <div class="checkbox-grid">
                         {% for genero in generos %}
                             <label class="checkbox-label">
-                                <input type="checkbox" name="genero" value="{{ genero }}">
+                                <input type="checkbox" name="genero" value="{{ genero }}" {% if genero in generos_marcados %}checked{% endif %}>
                                 <div class="checkbox-button">{{ nomes_genero.get(genero, genero.capitalize()) }}</div>
                             </label>
                         {% endfor %}
                         <label class="checkbox-label">
-                            <input type="checkbox" id="toggle-outros-genero"
+                            <input type="checkbox" id="toggle-outros-genero" {% if generos_novos_atual %}checked{% endif %}
                                    onchange="document.getElementById('grupo-generos-novos').style.display = this.checked ? 'block' : 'none'">
                             <div class="checkbox-button">Outro(s)</div>
                         </label>
                     </div>
 
-                    <div class="campo-condicional" id="grupo-generos-novos" style="display: none;">
-                        <input type="text" name="generos_novos" placeholder="Ex: terror, sessao da tarde">
+                    <div class="campo-condicional" id="grupo-generos-novos" {% if generos_novos_atual %}style="display: block;"{% else %}style="display: none;"{% endif %}>
+                        <input type="text" name="generos_novos" value="{{ generos_novos_atual }}" placeholder="Ex: terror, sessao da tarde">
                         <span class="campo-dica">Separe por vírgula e sem acentuação</span>
                     </div>
                 </div>
 
                 <div class="filter-group">
                     <label class="filter-label" for="senha">Senha</label>
-                    <input type="password" id="senha" name="senha" required>
+                    <div class="input-password-wrapper">
+                        <input type="password" id="senha" name="senha" value="{{ dados_form.senha if dados_form else '' }}" required>
+                        <button type="button" class="toggle-senha" onclick="alternarVisibilidadeSenha()" aria-label="Mostrar ou ocultar senha">👁️</button>
+                    </div>
                 </div>
 
                 <button type="submit" class="btn-submit">➕ Adicionar ao catálogo</button>
@@ -131,6 +140,20 @@
 
         </form>
 
+    </div>
+
+    <script>
+        function alternarVisibilidadeSenha() {
+            const campoSenha = document.getElementById('senha');
+            const botaoOlho = document.querySelector('.toggle-senha');
+            const visivel = campoSenha.type === 'text';
+            campoSenha.type = visivel ? 'password' : 'text';
+            botaoOlho.textContent = visivel ? '👁️' : '🙈';
+        }
+    </script>
+
+    <div style="text-align: center; margin-top: 4px;">
+        <a href="/" class="btn-secondary">🔙 Voltar à página inicial</a>
     </div>
 
 </body>

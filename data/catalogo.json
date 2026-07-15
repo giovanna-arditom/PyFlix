@@ -768,5 +768,56 @@
     "sinopse": "Jovens da alta sociedade londrina vivem romances intensos enquanto enfrentam escândalos, desejos e jogos da aristocracia.",
     "onde": "Netflix",
     "poster": "https://image.tmdb.org/t/p/w500/eSrfwxnmMffTEI8gHTDde0iWuGB.jpg"
+  },
+  {
+    "titulo": "Tá Chovendo Hambúrguer",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "comedia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 6.9,
+    "sinopse": "Flint Lockwood é um jovem inventor que sonha em transformar a vida de sua pequena cidade. Quando uma de suas criações começa a fazer comida cair do céu, tudo parece perfeito. Mas, conforme a situação sai do controle, Flint precisa usar sua criatividade para enfrentar as consequências de sua invenção.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/czEUatnzoLXjCDZjTKHyjcKBTFy.jpg"
+  },
+  {
+    "titulo": "A Fantástica Fábrica de Chocolate",
+    "tipo": "filme",
+    "genero": [
+      "fantasia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 6.7,
+    "sinopse": "Charlie Bucket é um garoto de origem humilde que ganha a rara oportunidade de visitar a misteriosa fábrica do excêntrico Willy Wonka. Ao lado de outras crianças, ele embarca em uma jornada repleta de invenções surpreendentes, desafios inesperados e descobertas que vão muito além dos doces e chocolates.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/vSl1u0z4TCKL4VPVyr6KDtZibYT.jpg"
+  },
+  {
+    "titulo": "Community",
+    "tipo": "serie",
+    "genero": [
+      "sitcom"
+    ],
+    "classificacao": 16,
+    "nota": 8.5,
+    "sinopse": "Após ter seu diploma de advocacia invalidado, o egocêntrico Jeff Winger é forçado a voltar à faculdade em Greendale. Para se dar bem, ele cria um grupo de estudos de mentira que acaba atraindo um grupo hilário de desajustados. Juntos, eles formam uma família improvável, vivendo aventuras caóticas e metalinguísticas.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/3KUjDt8XY7w2Ku70UE0SECmv1zP.jpg"
+  },
+  {
+    "titulo": "Boots",
+    "tipo": "serie",
+    "genero": [
+      "drama"
+    ],
+    "classificacao": 14,
+    "nota": 7.8,
+    "sinopse": "A série Boots acompanha Cameron Cope, um adolescente gay que sofre bullying, e seu melhor amigo. Nos anos 1990, eles se alistam impulsivamente no Corpo de Fuzileiros Navais dos EUA. Em um ambiente militar preconceituoso, eles enfrentam um treinamento brutal, descobrem sua própria identidade e constroem laços improváveis.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/AeCeUdRgCkp61Pe1Dxk7EknXJJi.jpg"
   }
 ]
