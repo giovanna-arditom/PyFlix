@@ -29,6 +29,45 @@ def buscar_poster(titulo, tipo):
     return None
 
 
+def buscar_titulo_oficial(titulo, tipo):
+    endpoint = 'movie' if tipo == 'filme' else 'tv'
+    url = f'{BASE_URL}/{endpoint}'
+    params = {
+        'api_key': API_KEY,
+        'query': titulo,
+        'language': 'pt-BR'
+    }
+
+    resposta = requests.get(url, params=params)
+    dados = resposta.json()
+
+    resultados = dados.get('results', [])
+    if resultados:
+        campo_titulo = 'title' if tipo == 'filme' else 'name'
+        return resultados[0].get(campo_titulo)
+    return None
+
+
+OMDB_API_KEY = os.getenv('OMDB_API_KEY')
+
+
+def buscar_nota_imdb(titulo, tipo):
+    tipo_omdb = 'movie' if tipo == 'filme' else 'series'
+    params = {
+        'apikey': OMDB_API_KEY,
+        't': titulo,
+        'type': tipo_omdb
+    }
+
+    resposta = requests.get('https://www.omdbapi.com/', params=params)
+    dados = resposta.json()
+
+    nota = dados.get('imdbRating')
+    if nota and nota != 'N/A':
+        return float(nota)
+    return None
+
+
 def main():
     with open('data/catalogo.json', 'r', encoding='utf-8') as arquivo:
         catalogo = json.load(arquivo)

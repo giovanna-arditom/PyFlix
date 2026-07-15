@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>PyFlix - Adicionado!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="PyFlix">
+            <p>Adicionado com sucesso!</p>
+        </div>
+
+        {% if nota_nao_encontrada %}
+            <div class="panel">
+                <p style="color: var(--color-accent); font-weight: 700;">
+                    Nota do IMDb não encontrada automaticamente para este título. Foi definida como 0 —
+                    edite o <code>data/catalogo.json</code> manualmente se quiser corrigir.
+                </p>
+            </div>
+        {% endif %}
+
+        <div class="recommendation-card">
+            <div class="card-body">
+                <div class="card-info">
+                    <span class="type-tag">{{ item.tipo.capitalize() }}</span>
+                    <h2 class="card-title">{{ item.titulo }}</h2>
+                    <div class="card-meta">
+                        <span>Classificação: {{ item.classificacao }}+</span>
+                    </div>
+                    <p class="card-synopsis">{{ item.sinopse }}</p>
+                </div>
+                <div class="card-side">
+                    <span class="card-rating">IMDb ★ {{ item.nota }}</span>
+                    {% if item.poster %}
+                        <img src="{{ item.poster }}" alt="Pôster de {{ item.titulo }}" class="card-poster">
+                    {% else %}
+                        <p style="color: var(--text-muted); font-size: 0.85rem;">Pôster não encontrado automaticamente.</p>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="watch-providers">
+                <label class="filter-label">Onde assistir</label>
+                <div class="providers-list">
+                    <span class="provider-pill">{{ item.onde }}</span>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <a href="/adicionar" class="btn-secondary btn-reroll">➕ Adicionar outro</a>
+                <a href="/" class="btn-secondary">⬅ Voltar aos filtros</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

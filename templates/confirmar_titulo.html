@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>PyFlix - Confirmar Título</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="PyFlix">
+        </div>
+
+        <div class="panel">
+            <h2 class="panel-title">Você quis dizer...?</h2>
+            <p class="card-synopsis">
+                Você digitou <strong>"{{ titulo_digitado }}"</strong>, mas encontramos
+                <strong>"{{ titulo_sugerido }}"</strong> no TMDB. Qual está correto?
+            </p>
+
+            <form action="/adicionar" method="post" style="margin-bottom: 12px;">
+                {% for chave, valores in dados_form.items() %}
+                    {% if chave != 'titulo' %}
+                        {% for valor in valores %}
+                            <input type="hidden" name="{{ chave }}" value="{{ valor }}">
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+                <input type="hidden" name="titulo" value="{{ titulo_sugerido }}">
+                <input type="hidden" name="confirmado" value="1">
+                <button type="submit" class="btn-submit">Usar "{{ titulo_sugerido }}"</button>
+            </form>
+
+            <form action="/adicionar" method="post">
+                {% for chave, valores in dados_form.items() %}
+                    {% if chave != 'titulo' %}
+                        {% for valor in valores %}
+                            <input type="hidden" name="{{ chave }}" value="{{ valor }}">
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+                <input type="hidden" name="titulo" value="{{ titulo_digitado }}">
+                <input type="hidden" name="confirmado" value="1">
+                <button type="submit" class="btn-secondary" style="width: 100%;">Manter "{{ titulo_digitado }}"</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>

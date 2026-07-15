@@ -1,9 +1,16 @@
 from flask import Flask, render_template, request, session
 import json
 import random
+import os
+from dotenv import load_dotenv
+from buscar_posteres import buscar_poster, buscar_nota_imdb, buscar_titulo_oficial
+
+load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = 'troque-isso-por-uma-frase-aleatoria-so-sua'
+app.secret_key = os.getenv('FLASK_SECRET_KEY')
+
+SENHA_ADICIONAR = os.getenv('SENHA_ADICIONAR')
 
 NOMES_GENERO = {
     'acao': 'Ação',
@@ -85,6 +92,72 @@ def proxima():
     item_atual = next((i for i in catalogo if i['titulo'] == titulo_atual), None)
     contador = f"{posicao + 1} de {len(ids)}"
     return render_template('resultado.html', item=item_atual, contador=contador, acabou=False)
+
+@app.route('/adicionar', methods=['GET'])
+def adicionar_formulario():
+    catalogo = carregar_catalogo()
+    generos = sorted(set(genero for item in catalogo for genero in item['genero']))
+    plataformas = sorted(set(item['onde'] for item in catalogo))
+    return render_template('adicionar.html', generos=generos, nomes_genero=NOMES_GENERO, plataformas=plataformas, erro=None)
+
+
+@app.route('/adicionar', methods=['POST'])
+def adicionar_processar():
+    catalogo = carregar_catalogo()
+    generos = sorted(set(genero for item in catalogo for genero in item['genero']))
+    plataformas = sorted(set(item['onde'] for item in catalogo))
+
+    senha_digitada = request.form.get('senha', '')
+    if senha_digitada != SENHA_ADICIONAR:
+        return render_template('adicionar.html', generos=generos, nomes_genero=NOMES_GENERO,
+                                plataformas=plataformas, erro='Senha incorreta. Tente novamente.')
+
+    titulo = request.form.get('titulo', '').strip()
+    tipo = request.form.get('tipo')
+    confirmado = request.form.get('confirmado') == '1'
+
+    if not confirmado:
+        titulo_oficial = buscar_titulo_oficial(titulo, tipo)
+        if titulo_oficial and titulo_oficial.strip().lower() != titulo.lower():
+            dados_form = request.form.to_dict(flat=False)
+            return render_template('confirmar_titulo.html', titulo_digitado=titulo,
+                                    titulo_sugerido=titulo_oficial, dados_form=dados_form)
+
+    classificacao = int(request.form.get('classificacao'))
+    sinopse = request.form.get('sinopse', '').strip()
+    onde = request.form.get('onde', '').strip()
+    if onde == 'outro':
+        onde = request.form.get('onde_outro', '').strip()
+
+    generos_marcados = request.form.getlist('genero')
+    generos_digitados = request.form.get('generos_novos', '')
+    generos_novos = [g.strip().lower() for g in generos_digitados.split(',') if g.strip()]
+    genero_final = sorted(set(generos_marcados + generos_novos))
+
+    poster = buscar_poster(titulo, tipo)
+
+    nota = buscar_nota_imdb(titulo, tipo)
+    nota_nao_encontrada = nota is None
+    if nota is None:
+        nota = 0
+
+    novo_item = {
+        'titulo': titulo,
+        'tipo': tipo,
+        'genero': genero_final,
+        'classificacao': classificacao,
+        'nota': nota,
+        'sinopse': sinopse,
+        'onde': onde,
+        'poster': poster,
+    }
+
+    catalogo.append(novo_item)
+    with open('data/catalogo.json', 'w', encoding='utf-8') as arquivo:
+        json.dump(catalogo, arquivo, ensure_ascii=False, indent=2)
+
+    return render_template('adicionar_sucesso.html', item=novo_item, nota_nao_encontrada=nota_nao_encontrada)
+
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>PyFlix - Adicionar Conteúdo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="PyFlix">
+            <p>Adicionar novo filme ou série</p>
+        </div>
+
+        {% if erro %}
+            <div class="panel">
+                <p style="color: var(--color-primary); font-weight: 700;">{{ erro }}</p>
+            </div>
+        {% endif %}
+
+        <form action="/adicionar" method="post">
+
+            <div class="panel">
+                <h2 class="panel-title">Dados do conteúdo</h2>
+
+                <div class="filter-group">
+                    <label class="filter-label" for="titulo">Título completo</label>
+                    <input type="text" id="titulo" name="titulo" required>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label">Tipo</label>
+                    <div class="radio-tile-group">
+                        <label class="radio-tile-label">
+                            <input type="radio" name="tipo" value="filme" checked>
+                            <div class="radio-tile-content">Filme</div>
+                        </label>
+                        <label class="radio-tile-label">
+                            <input type="radio" name="tipo" value="serie">
+                            <div class="radio-tile-content">Série</div>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label">Classificação etária</label>
+                    <div class="radio-tile-group tiles-classificacao">
+                        <label class="radio-tile-label">
+                            <input type="radio" name="classificacao" value="0">
+                            <div class="radio-tile-content">Livre</div>
+                        </label>
+                        <label class="radio-tile-label">
+                            <input type="radio" name="classificacao" value="10">
+                            <div class="radio-tile-content">10</div>
+                        </label>
+                        <label class="radio-tile-label">
+                            <input type="radio" name="classificacao" value="12" checked>
+                            <div class="radio-tile-content">12</div>
+                        </label>
+                        <label class="radio-tile-label">
+                            <input type="radio" name="classificacao" value="14">
+                            <div class="radio-tile-content">14</div>
+                        </label>
+                        <label class="radio-tile-label">
+                            <input type="radio" name="classificacao" value="16">
+                            <div class="radio-tile-content">16</div>
+                        </label>
+                        <label class="radio-tile-label">
+                            <input type="radio" name="classificacao" value="18">
+                            <div class="radio-tile-content">18</div>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <p class="campo-dica">A nota IMDb será buscada automaticamente pelo título, assim como o pôster.</p>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label" for="sinopse">Sinopse</label>
+                    <textarea id="sinopse" name="sinopse" rows="7" maxlength="400" required
+                              oninput="document.getElementById('contador-sinopse').innerText = this.value.length + ' / 400'"></textarea>
+                    <span class="char-counter" id="contador-sinopse">0 / 400</span>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label" for="onde">Onde assistir</label>
+                    <select id="onde" name="onde" onchange="document.getElementById('grupo-onde-outro').style.display = (this.value === 'outro') ? 'block' : 'none'">
+                        {% for plataforma in plataformas %}
+                            <option value="{{ plataforma }}">{{ plataforma }}</option>
+                        {% endfor %}
+                        <option value="outro">Outro (digitar)</option>
+                    </select>
+
+                    <div class="campo-condicional" id="grupo-onde-outro" style="display: none;">
+                        <input type="text" name="onde_outro" placeholder="Digite a plataforma">
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label">Gêneros do conteúdo</label>
+                    <div class="checkbox-grid">
+                        {% for genero in generos %}
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="genero" value="{{ genero }}">
+                                <div class="checkbox-button">{{ nomes_genero.get(genero, genero.capitalize()) }}</div>
+                            </label>
+                        {% endfor %}
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="toggle-outros-genero"
+                                   onchange="document.getElementById('grupo-generos-novos').style.display = this.checked ? 'block' : 'none'">
+                            <div class="checkbox-button">Outro(s)</div>
+                        </label>
+                    </div>
+
+                    <div class="campo-condicional" id="grupo-generos-novos" style="display: none;">
+                        <input type="text" name="generos_novos" placeholder="Ex: terror, sessao da tarde">
+                        <span class="campo-dica">Separe por vírgula e sem acentuação</span>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label" for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" required>
+                </div>
+
+                <button type="submit" class="btn-submit">➕ Adicionar ao catálogo</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

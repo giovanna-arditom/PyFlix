@@ -19,7 +19,7 @@
                 <h2 class="panel-title">Filtros</h2>
 
                 <div class="filter-group">
-                    <label class="filter-label" for="idade_slider">Classificação etária</label>
+                    <label class="filter-label" for="idade_slider">Classificação etária máxima</label>
                     <div class="range-container">
                         <span class="range-output" id="valor-idade">18 Anos</span>
                         <input type="range" id="idade_slider" min="0" max="5" step="1" value="5"
@@ -29,7 +29,7 @@
                 </div>
 
                 <div class="filter-group">
-                    <label class="filter-label">Nota mínima</label>
+                    <label class="filter-label">Nota mínima (IMDb)</label>
                     <div class="radio-tile-group">
                         <label class="radio-tile-label">
                             <input type="radio" name="nota_min" value="" checked>
@@ -108,6 +108,10 @@
             </div>
 
         </form>
+
+        <div style="text-align: center; margin-top: 20px;">
+            <a href="/adicionar" class="btn-secondary">➕ Adicionar novo conteúdo</a>
+        </div>
 
     </div>
 
