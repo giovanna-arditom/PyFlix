@@ -833,5 +833,461 @@
     "sinopse": "Quatro animais criados em um zoológico de Nova York acabam, por acidente, em uma ilha muito diferente do que conheciam. Longe do conforto da cidade, eles precisam aprender a sobreviver na natureza enquanto vivem aventuras divertidas e fazem novas amizades.",
     "onde": "Prime Video",
     "poster": "https://image.tmdb.org/t/p/w500/9OFYnKQBdSfoSunwkImoTtYo9S9.jpg"
+  },
+  {
+    "titulo": "A Odisseia",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "fantasia"
+    ],
+    "classificacao": 14,
+    "nota": 0.0,
+    "sinopse": "Acompanhe a saga de Odisseu, o lendário rei de Ítaca, em sua longa e perigosa jornada de retorno ao lar após a Guerra de Troia. O relato narra seus confrontos com seres míticos, como o ciclope Polifemo, as sedutoras sereias e a ninfa Calipso, enquanto ele luta contra o destino para se reencontrar com sua fiel esposa, Penélope.",
+    "onde": "A definir",
+    "poster": "https://image.tmdb.org/t/p/w500/m0ehGErq8GTLK4WZxaq9QLGAR3u.jpg"
+  },
+  {
+    "titulo": "Backrooms: Um Não-Lugar",
+    "tipo": "filme",
+    "genero": [
+      "ficcao cientifica",
+      "misterio",
+      "terror"
+    ],
+    "classificacao": 16,
+    "nota": 7,
+    "sinopse": "Em 1990, o vendedor de móveis Clark descobre em sua loja um portal para os \"Backrooms\", um labirinto infinito de escritórios surreais. Fascinado, ele convence sua funcionária Kat e o namorado dela a mapearem as anomalias do local. Após o desaparecimento de Clark, sua terapeuta, a Dra. Mary Kline, mergulha na dimensão impossível para resgatá-lo, sendo forçada a confrontar seus próprios traumas enquanto busca uma saída.",
+    "onde": "A definir",
+    "poster": "https://image.tmdb.org/t/p/w500/qEl4BDBTGnhLiadZx0c9nHM8vBF.jpg"
+  },
+  {
+    "titulo": "Obsessão",
+    "tipo": "filme",
+    "genero": [
+      "terror",
+      "thriller"
+    ],
+    "classificacao": 18,
+    "nota": 8,
+    "sinopse": "Sem grandes pretensões, um romântico incurável compra um brinquedo que promete realizar desejos únicos. Ele quebra o artefato misterioso enquanto pede para conquistar a crush e consegue exatamente o que desejava, mas descobre que a consequência é sinistra.",
+    "onde": "A definir",
+    "poster": "https://image.tmdb.org/t/p/w500/wUc6IDf5ChjM1UyQye21qFBeJY0.jpg"
+  },
+  {
+    "titulo": "Lucky",
+    "tipo": "serie",
+    "genero": [
+      "crime",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 6.4,
+    "sinopse": "Quando um roubo dá errado, a vigarista Lucky é forçada a cair na estrada. Perseguida pelo FBI e por uma mafiosa implacável, Lucky deve lutar pela sua vida. E por uma saída.",
+    "onde": "Telecine",
+    "poster": "https://image.tmdb.org/t/p/w500/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg"
+  },
+  {
+    "titulo": "Moana - Live Action",
+    "tipo": "filme",
+    "genero": [
+      "aventura",
+      "comedia",
+      "familia",
+      "fantasia"
+    ],
+    "classificacao": 10,
+    "nota": 5.7,
+    "sinopse": "Na Polinésia Antiga, quando uma terrível maldição contraída por Maui chega à ilha de um impetuoso chefe, sua filha obstinada responde ao chamado do Oceano para procurar o semideus e consertar as coisas. Adaptação live-action do filme de animação da Disney de 2016 'Moana'",
+    "onde": "A definir",
+    "poster": "https://image.tmdb.org/t/p/w500/sUkilgOKAGjw9c7OsRPLa392MOw.jpg"
+  },
+  {
+    "titulo": "A Casa do Dragão",
+    "tipo": "serie",
+    "genero": [
+      "action & adventure",
+      "drama",
+      "sci-fi & fantasy"
+    ],
+    "classificacao": 16,
+    "nota": 8.3,
+    "sinopse": "200 anos antes dos eventos de \"Game of Thrones\", os Targaryen estavam no ápice de seu poder, tendo inúmeros dragões sob seu comando, mas nem tudo dura para sempre. O início do fim da dinastia Targaryen.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/oKJDm4QCKbp6mR4FnxXrFlPJP8Y.jpg"
+  },
+  {
+    "titulo": "The Furious",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "crime",
+      "thriller"
+    ],
+    "classificacao": 18,
+    "nota": 7.4,
+    "sinopse": "Após a filha de Wang Wei ser sequestrada por uma rede criminosa e ele não receber ajuda da polícia corrupta, Wei decide encontrá-la por conta própria. Seu único aliado é Navin, um jornalista implacável cuja esposa desapareceu misteriosamente. Movidos por uma fúria vingativa, a dupla improvável enfrenta os sequestradores impiedosamente neste explosivo confronto de artes marciais.",
+    "onde": "A definir",
+    "poster": "https://image.tmdb.org/t/p/w500/k334z7zxOJlJvOsOwyRF6HClCvi.jpg"
+  },
+  {
+    "titulo": "A Morte do Demônio: Em Chamas",
+    "tipo": "filme",
+    "genero": [
+      "terror",
+      "thriller"
+    ],
+    "classificacao": 18,
+    "nota": 6.7,
+    "sinopse": "Após a perda do marido, uma mulher busca consolo com seus sogros em sua casa isolada. À medida que, um a um, eles são transformados em Deadites — transformando o encontro em uma reunião familiar infernal —, ela descobre que os votos que fez em vida... continuam vivos mesmo após a morte.",
+    "onde": "A definir",
+    "poster": "https://image.tmdb.org/t/p/w500/fteLdvfRnltfLjAEnsl5E3vImnW.jpg"
+  },
+  {
+    "titulo": "Silo",
+    "tipo": "serie",
+    "genero": [
+      "drama",
+      "sci-fi & fantasy"
+    ],
+    "classificacao": 14,
+    "nota": 8.1,
+    "sinopse": "Em um futuro destruído e tóxico, existe uma comunidade que vive dentro de um gigantesco silo subterrâneo com centenas de andares de profundidade. Lá, homens e mulheres vivem numa sociedade cheia de regras que acreditam existir para protegê-los.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/tVR4q9FazxJuCEpaYxiCijUlvM3.jpg"
+  },
+  {
+    "titulo": "Toy Story 5",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "aventura",
+      "comedia",
+      "familia"
+    ],
+    "classificacao": 10,
+    "nota": 7.5,
+    "sinopse": "O trabalho de Buzz, Woody, Jessie e do resto da gangue fica exponencialmente mais difícil quando eles enfrentam uma nova ameaça à diversão: a tecnologia.",
+    "onde": "A definir",
+    "poster": "https://image.tmdb.org/t/p/w500/sssrBhdvDcczgMQYDc8oCoSuFEJ.jpg"
+  },
+  {
+    "titulo": "One Piece",
+    "tipo": "serie",
+    "genero": [
+      "action & adventure",
+      "animacao",
+      "comedia"
+    ],
+    "classificacao": 14,
+    "nota": 9.0,
+    "sinopse": "Houve um homem que conquistou tudo aquilo que o mundo tinha a oferecer, o lendário Rei dos Piratas, Gold Roger. Capturado e condenado à execução pelo Governo Mundial, suas últimas palavras lançaram legiões aos mares. \"Meu tesouro? Se quiserem, podem pegá-lo. Procurem-no! Ele contém tudo que este mundo pode oferecer!\". Foi a revelação do maior tesouro, o One Piece, cobiçado por homens de todo o mundo, sonhando com fama e riqueza imensuráveis... Assim começou a Grande Era dos Piratas!",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/9ltisibeD4gzqjM1AzmQwCdyirQ.jpg"
+  },
+  {
+    "titulo": "Rick e Morty",
+    "tipo": "serie",
+    "genero": [
+      "action & adventure",
+      "animacao",
+      "comedia",
+      "sci-fi & fantasy"
+    ],
+    "classificacao": 16,
+    "nota": 9.0,
+    "sinopse": "O brilhante cientista beberrão Rick sequestra Morty, seu neto aborrescente, para viver loucuras em outros mundos e dimensões alternativas.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/5qfd0e2uMbVInX3YdeFbDsfxi1t.jpg"
+  },
+  {
+    "titulo": "Passageiro do Mal",
+    "tipo": "filme",
+    "genero": [
+      "terror",
+      "thriller"
+    ],
+    "classificacao": 16,
+    "nota": 5.5,
+    "sinopse": "Durante uma viagem de van, um jovem casal presencia um acidente terrível que resulta na morte do motorista. Logo, eles passam a ser perseguidos por uma entidade demoníaca, de quem é impossível escapar e que os segue por onde quer que vão.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/aSoOiatgMmXtDS3iwWD5hC2Rbyn.jpg"
+  },
+  {
+    "titulo": "Uma Casa na Pradaria",
+    "tipo": "serie",
+    "genero": [
+      "drama",
+      "familia",
+      "faroeste"
+    ],
+    "classificacao": 12,
+    "nota": 7.2,
+    "sinopse": "A família Ingalls começa uma nova vida no Oeste, um lugar que combina os encantos da natureza e uma luta constante pela sobrevivência.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/5U8WPMqnTx0xGQWwTVLTJGz8wqC.jpg"
+  },
+  {
+    "titulo": "Chainsmoker Cat",
+    "tipo": "serie",
+    "genero": [
+      "animacao",
+      "comedia",
+      "sci-fi & fantasy"
+    ],
+    "classificacao": 16,
+    "nota": 7.0,
+    "sinopse": "Yani não consegue parar em nenhum emprego nem pagar o aluguel. Ela só pensa em fumar. Mas a preocupação das pessoas próximas vai obrigar a garota a mudar de vida.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/1OEYjA3bpPlXNPwV51WJhGWx8Mk.jpg"
+  },
+  {
+    "titulo": "Um Sonho de Liberdade",
+    "tipo": "filme",
+    "genero": [
+      "crime",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 7.6,
+    "sinopse": "Em 1946, Andy Dufresne, um banqueiro jovem e bem sucedido, tem a sua vida radicalmente modificada ao ser condenado por um crime que nunca cometeu, o homicídio de sua esposa e do amante dela. Ele é mandado para uma prisão que é o pesadelo de qualquer detento, a Penitenciária Estadual de Shawshank, no Maine. Lá ele irá cumprir a pena perpétua. Andy logo será apresentado a Warden Norton, o corrupto e cruel agente penitenciário, que usa a Bíblia como arma de controle e ao Capitão Byron Hadley que trata os internos como animais. Andy faz amizade com Ellis Boyd Redding, um prisioneiro que cumpre pena há 20 anos e controla o mercado negro da instituição.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/umX3lBhHoTV7Lsci140Yr8VpXyN.jpg"
+  },
+  {
+    "titulo": "Perdas e Danos",
+    "tipo": "filme",
+    "genero": [
+      "drama",
+      "romance"
+    ],
+    "classificacao": 16,
+    "nota": 6.7,
+    "sinopse": "O político britânico Stephen está em um casamento sem graça, mas estável, com Ingrid. Quando Stephen conhece a noiva sedutora de seu filho, Anna, ele se apaixona e começa um romance intenso, mas perigoso com ela. Dizer que Anna está noiva de seu filho e que ela é assombrada por demônios pessoais não é suficiente para parar Stephen. Continuando a relação sórdida, Stephen luta para evitar a destruição de si mesmo e sua família.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/alf3JOPP7EYP0iO24gwe5YfRnqo.jpg"
+  },
+  {
+    "titulo": "Homem-Aranha: Sem Volta Para Casa",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "ficcao cientifica"
+    ],
+    "classificacao": 12,
+    "nota": 8.1,
+    "sinopse": "Peter Parker é desmascarado e não consegue mais separar sua vida normal dos grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o que realmente significa ser o Homem-Aranha...",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/xaKydnMw6wR1MBAjS5seGPVusbs.jpg"
+  },
+  {
+    "titulo": "Vingadores: Guerra Infinita",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "ficcao cientifica"
+    ],
+    "classificacao": 12,
+    "nota": 8.4,
+    "sinopse": "Homem de Ferro, Thor, Hulk e os Vingadores se unem para combater seu inimigo mais poderoso, o maligno Thanos. Em uma missão para coletar todas as seis pedras infinitas, Thanos planeja usá-las para infligir sua vontade maléfica sobre a realidade.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/A4kvp7vY1BDLrrQIagRCffLKj1t.jpg"
+  },
+  {
+    "titulo": "Toy Story: Um Mundo de Aventuras",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "aventura",
+      "comedia",
+      "familia"
+    ],
+    "classificacao": 0,
+    "nota": 8.3,
+    "sinopse": "Buzz Lightyear é o novo e sofisticado astronauta de brinquedo do garoto Andy. Buzz não imaginava que encontraria um rival: Woody, um cowboy de brinquedo que, dominado pelo ciúme, acredita ter perdido um lugar precioso no coração do seu dono. Os dois brinquedos vivem brigando até que vão parar nas garras do vizinho, um verdadeiro destruidor de brinquedos. Agora, mais do que nunca, Buzz e Woody precisam precisam se unir para escapar do perigo. Com a ajuda de seus amigos da caixa de brinquedos, eles vão viver uma incrível aventura.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/686F0CEPmI4ZXjFbWtIHQOBwnfI.jpg"
+  },
+  {
+    "titulo": "Minha Culpa",
+    "tipo": "filme",
+    "genero": [
+      "drama",
+      "romance",
+      "thriller"
+    ],
+    "classificacao": 18,
+    "nota": 6.1,
+    "sinopse": "Noah é obrigada a mudar de cidade, deixando seus amigos e namorado para trás, após sua mãe se casar com um novo marido rico. Lá ela conhece Nick, seu novo meio-irmão, e os dois se apaixonam loucamente, vivendo um grande romance proibido.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/a59iGvF609yAZ5tfZUoQ3XipeQH.jpg"
+  },
+  {
+    "titulo": "Toy Story 4",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "aventura",
+      "comedia",
+      "familia"
+    ],
+    "classificacao": 0,
+    "nota": 7.6,
+    "sinopse": "Agora morando na casa da pequena Bonnie, Woody apresenta aos amigos o novo brinquedo construído por ela: Garfinho, baseado em um garfo de verdade. O novo posto de brinquedo não o agrada nem um pouco, o que faz com que Garfinho fuja de casa. Decidido a trazer de volta o atual brinquedo favorito de Bonnie, Woody parte em seu encalço e, no caminho, reencontra Bo Peep, que agora vive em um parque de diversões.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/csiyO6q8rR74pfgJDjwINzhoick.jpg"
+  },
+  {
+    "titulo": "Duna",
+    "tipo": "filme",
+    "genero": [
+      "aventura",
+      "ficcao cientifica",
+      "guerra"
+    ],
+    "classificacao": 14,
+    "nota": 6.3,
+    "sinopse": "Em um futuro distante, planetas são comandados por casas nobres que fazem parte de um império feudal intergalático. Paul Atreides é um jovem cuja família toma o controle do planeta deserto Arrakis, também conhecido como Duna. A única fonte da especiaria Melange, a substância mais importante do cosmos, Arrakis se mostra ser um planeta nem um pouco fácil de governar.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/uzERcfV2rSHNhW5eViQiO9hNiA7.jpg"
+  },
+  {
+    "titulo": "Kung Fu Futebol Clube",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "comedia"
+    ],
+    "classificacao": 0,
+    "nota": 7.3,
+    "sinopse": "Sing, que é adepto da prática do kung fu shaolin, resolve usar os seus chutes poderosos em outro esporte. Ele reúne os amigos lutadores e monta um time de futebol que consegue se dar bem no campeonato da cidade.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/rO1YoR49hs9QPla0vwCxrMLln33.jpg"
+  },
+  {
+    "titulo": "Batman: O Cavaleiro das Trevas",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "crime",
+      "thriller"
+    ],
+    "classificacao": 12,
+    "nota": 9.1,
+    "sinopse": "Após dois anos desde o surgimento do Batman, os criminosos de Gotham City têm muito o que temer. Com a ajuda do tenente James Gordon e do promotor público Harvey Dent, Batman luta contra o crime organizado. Acuados com o combate, os chefes do crime aceitam a proposta feita pelo Coringa e o contratam para combater o Homem-Morcego.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/4lj1ikfsSmMZNyfdi8R8Tv5tsgb.jpg"
+  },
+  {
+    "titulo": "Intocáveis",
+    "tipo": "filme",
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "classificacao": 14,
+    "nota": 8.1,
+    "sinopse": "Quando um ex-presidiário é contratado para cuidar de um aristocrata francês, seu novo trabalho se torna uma aventura imprevisível. Acelerar uma Maserati em Paris, seduzir mulheres, e fazer parapente sobre os Alpes é apenas o começo, pois ele vira o mundo da classe alta de Paris de cabeça para baixo.",
+    "onde": "Telecine",
+    "poster": "https://image.tmdb.org/t/p/w500/2tAzFC2xUAXEx96l5Xixb6WLAyO.jpg"
+  },
+  {
+    "titulo": "Matrix",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "ficcao cientifica"
+    ],
+    "classificacao": 12,
+    "nota": 8.7,
+    "sinopse": "O jovem programador Thomas Anderson é atormentado por estranhos pesadelos em que está sempre conectado por cabos a um imenso sistema de computadores do futuro. À medida que o sonho se repete, ele começa a desconfiar da realidade. Thomas conhece os misteriosos Morpheus e Trinity e descobre que é vítima de um sistema inteligente e artificial chamado Matrix, que manipula a mente das pessoas e cria a ilusão de um mundo real enquanto usa os cérebros e corpos dos indivíduos para produzir energia.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/lDqMDI3xpbB9UQRyeXfei0MXhqb.jpg"
+  },
+  {
+    "titulo": "A Viagem de Chihiro",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "familia",
+      "fantasia"
+    ],
+    "classificacao": 10,
+    "nota": 8.6,
+    "sinopse": "Chihiro e seus pais estão se mudando para uma cidade diferente. A caminho da nova casa, o pai decide pegar um atalho. Eles se deparam com uma mesa repleta de comida, embora ninguém esteja por perto. Chihiro sente o perigo, mas seus pais começam a comer. Quando anoitece, eles se transformam em porcos. Agora, apenas Chihiro pode salvá-los.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/ivHwYw3b03dFqRkcqaDSxjj2LQT.jpg"
+  },
+  {
+    "titulo": "A Morte do Demônio: A Ascensão",
+    "tipo": "filme",
+    "genero": [
+      "terror",
+      "thriller"
+    ],
+    "classificacao": 18,
+    "nota": 6.5,
+    "sinopse": "Duas irmãs distantes cujo reencontro é interrompido por demônios devoradores de carne que aparecem de repente, levando-as a uma batalha primal pela sobrevivência, enfrentando a versão mais assustadora que se possa imaginar de uma família.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/pYHypEGMKtFTSQqfWC6IJFeaz1J.jpg"
+  },
+  {
+    "titulo": "Coraline e o Mundo Secreto",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "familia",
+      "fantasia"
+    ],
+    "classificacao": 10,
+    "nota": 7.8,
+    "sinopse": "Entediada em sua nova casa, a pequena Coraline descobre uma porta secreta que contém um mundo parecido com o dela, porém melhor em muitas maneiras. Coraline se encanta com a descoberta, mas logo descobre que há algo de errado quando seus pais alternativos tentam mantê-la eternamente nesse mundo paralelo.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/rranXmvqPT4NoXzmxhFtXr9nNYT.jpg"
+  },
+  {
+    "titulo": "Origem",
+    "tipo": "serie",
+    "genero": [
+      "drama",
+      "misterio",
+      "sci-fi & fantasy"
+    ],
+    "classificacao": 18,
+    "nota": 7.8,
+    "sinopse": "Desvende o mistério de uma cidade no centro dos EUA. Enquanto os moradores lutam para manter um senso de normalidade, eles também devem sobreviver às ameaças da floresta ao redor, incluindo as criaturas aterrorizantes que surgem quando o sol se põe.",
+    "onde": "Globoplay",
+    "poster": "https://image.tmdb.org/t/p/w500/eK9ZDIq7gPFRJ0GGaWvgrXLZgXX.jpg"
+  },
+  {
+    "titulo": "Mushoku Tensei: Jobless Reincarnation",
+    "tipo": "serie",
+    "genero": [
+      "action & adventure",
+      "animacao",
+      "sci-fi & fantasy"
+    ],
+    "classificacao": 16,
+    "nota": 8.6,
+    "sinopse": "Quando um fracassado de 34 anos é atropelado por um ônibus, sua história não acaba. Reencarnado em um novo mundo como criança, Rudy aproveitará cada oportunidade para viver a vida que sempre quis. Com novos amigos, habilidades mágicas e coragem para fazer tudo o que sempre sonhou, ele embarca em uma aventura épica – com toda a sua experiência do passado intacta!",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg"
+  },
+  {
+    "titulo": "Lei & Ordem: Unidade de Vítimas Especiais",
+    "tipo": "serie",
+    "genero": [
+      "crime",
+      "drama",
+      "misterio"
+    ],
+    "classificacao": 14,
+    "nota": 8.1,
+    "sinopse": "Detetives que fazem parte da Unidade de Vítimas Especiais da polícia de Nova York investigam crimes de natureza sexual, como estupros, em que a vítima sobrevive, e auxilia as autoridades na investigação.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/nYkYmNFfKydgrcO45oNjOnW0FDJ.jpg"
   }
 ]
