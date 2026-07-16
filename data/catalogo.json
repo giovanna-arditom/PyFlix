@@ -819,5 +819,19 @@
     "sinopse": "A série Boots acompanha Cameron Cope, um adolescente gay que sofre bullying, e seu melhor amigo. Nos anos 1990, eles se alistam impulsivamente no Corpo de Fuzileiros Navais dos EUA. Em um ambiente militar preconceituoso, eles enfrentam um treinamento brutal, descobrem sua própria identidade e constroem laços improváveis.",
     "onde": "Netflix",
     "poster": "https://image.tmdb.org/t/p/w500/AeCeUdRgCkp61Pe1Dxk7EknXJJi.jpg"
+  },
+  {
+    "titulo": "Madagascar",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "comedia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 7.0,
+    "sinopse": "Quatro animais criados em um zoológico de Nova York acabam, por acidente, em uma ilha muito diferente do que conheciam. Longe do conforto da cidade, eles precisam aprender a sobreviver na natureza enquanto vivem aventuras divertidas e fazem novas amizades.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/9OFYnKQBdSfoSunwkImoTtYo9S9.jpg"
   }
 ]
