@@ -405,7 +405,7 @@ select:-webkit-autofill {
 .card-body {
     display: flex;
     align-items: flex-start;
-    gap: 20px;
+    gap: 45px;
     margin-bottom: 20px;
 }
 
@@ -467,6 +467,39 @@ select:-webkit-autofill {
     border-top: 1px solid var(--border-color);
     padding-top: 20px;
     margin-bottom: 25px;
+}
+
+/* Linha de metadados do card de resultado: gêneros à esquerda, onde assistir à direita */
+.meta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 4px;
+    margin-bottom: 28px;
+}
+
+.meta-row .genres-list {
+    flex: 1;
+    min-width: 0;
+}
+
+.meta-row .watch-providers {
+    flex-shrink: 0;
+    max-width: 45%;
+    /* dentro do card de resultado esse bloco não deve ter a borda/padding
+       do uso original em outra tela, senão ele fica mais baixo que os gêneros */
+    border-top: none;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.meta-row .providers-list {
+    justify-content: flex-end;
+}
+
+.meta-row .genres-list .providers-list {
+    justify-content: flex-start;
 }
 
 .providers-list {

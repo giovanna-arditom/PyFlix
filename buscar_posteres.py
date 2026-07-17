@@ -10,6 +10,12 @@ API_KEY = os.getenv('TMDB_API_KEY')
 BASE_URL = 'https://api.themoviedb.org/3/search'
 IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500'
 
+# Filtros minimos de "quao conhecido" o titulo precisa ser pra entrar no discover.
+# Aumente esses numeros se ainda estiver aparecendo titulo muito obscuro;
+# diminua se estiver filtrando coisa demais e sobrando pouco titulo novo pra achar.
+VOTE_COUNT_MINIMO = 100
+VOTE_AVERAGE_MINIMO = 5.5
+
 
 def buscar_poster(titulo, tipo):
     endpoint = 'movie' if tipo == 'filme' else 'tv'
@@ -187,7 +193,10 @@ def buscar_plataforma_tmdb(tmdb_id, tipo):
 def buscar_pagina_descoberta(tipo, pagina, data_limite):
     """Busca uma pagina de titulos populares de um tipo (filme ou serie), usando /discover,
     excluindo qualquer coisa lancada depois de 'data_limite' (formato 'AAAA-MM-DD').
-    Isso evita trazer lancamentos recentes/ainda em cartaz no cinema."""
+    Isso evita trazer lancamentos recentes/ainda em cartaz no cinema.
+
+    Tambem exige um minimo de votos e de nota media na TMDB (VOTE_COUNT_MINIMO e
+    VOTE_AVERAGE_MINIMO), pra nao trazer titulo desconhecido/muito de nicho."""
     endpoint = 'movie' if tipo == 'filme' else 'tv'
     campo_data = 'primary_release_date' if tipo == 'filme' else 'first_air_date'
 
@@ -197,7 +206,8 @@ def buscar_pagina_descoberta(tipo, pagina, data_limite):
         'language': 'pt-BR',
         'page': pagina,
         'sort_by': 'popularity.desc',
-        'vote_count.gte': 50,
+        'vote_count.gte': VOTE_COUNT_MINIMO,
+        'vote_average.gte': VOTE_AVERAGE_MINIMO,
         f'{campo_data}.lte': data_limite,
     }
 

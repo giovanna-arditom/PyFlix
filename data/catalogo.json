@@ -867,7 +867,7 @@
     "tipo": "filme",
     "genero": [
       "terror",
-      "thriller"
+      "suspense"
     ],
     "classificacao": 18,
     "nota": 8,
@@ -907,9 +907,9 @@
     "titulo": "A Casa do Dragão",
     "tipo": "serie",
     "genero": [
-      "action & adventure",
+      "acao",
       "drama",
-      "sci-fi & fantasy"
+      "ficcao cientifica"
     ],
     "classificacao": 16,
     "nota": 8.3,
@@ -923,7 +923,7 @@
     "genero": [
       "acao",
       "crime",
-      "thriller"
+      "suspense"
     ],
     "classificacao": 18,
     "nota": 7.4,
@@ -936,7 +936,7 @@
     "tipo": "filme",
     "genero": [
       "terror",
-      "thriller"
+      "suspense"
     ],
     "classificacao": 18,
     "nota": 6.7,
@@ -949,7 +949,7 @@
     "tipo": "serie",
     "genero": [
       "drama",
-      "sci-fi & fantasy"
+      "ficcao cientifica"
     ],
     "classificacao": 14,
     "nota": 8.1,
@@ -976,7 +976,7 @@
     "titulo": "One Piece",
     "tipo": "serie",
     "genero": [
-      "action & adventure",
+      "acao",
       "animacao",
       "comedia"
     ],
@@ -990,10 +990,10 @@
     "titulo": "Rick e Morty",
     "tipo": "serie",
     "genero": [
-      "action & adventure",
+      "acao",
       "animacao",
       "comedia",
-      "sci-fi & fantasy"
+      "ficcao cientifica"
     ],
     "classificacao": 16,
     "nota": 9.0,
@@ -1006,7 +1006,7 @@
     "tipo": "filme",
     "genero": [
       "terror",
-      "thriller"
+      "suspense"
     ],
     "classificacao": 16,
     "nota": 5.5,
@@ -1034,7 +1034,7 @@
     "genero": [
       "animacao",
       "comedia",
-      "sci-fi & fantasy"
+      "ficcao cientifica"
     ],
     "classificacao": 16,
     "nota": 7.0,
@@ -1117,7 +1117,7 @@
     "genero": [
       "drama",
       "romance",
-      "thriller"
+      "suspense"
     ],
     "classificacao": 18,
     "nota": 6.1,
@@ -1145,8 +1145,7 @@
     "tipo": "filme",
     "genero": [
       "aventura",
-      "ficcao cientifica",
-      "guerra"
+      "ficcao cientifica"
     ],
     "classificacao": 14,
     "nota": 6.3,
@@ -1173,7 +1172,7 @@
     "genero": [
       "acao",
       "crime",
-      "thriller"
+      "suspense"
     ],
     "classificacao": 12,
     "nota": 9.1,
@@ -1226,7 +1225,7 @@
     "tipo": "filme",
     "genero": [
       "terror",
-      "thriller"
+      "suspense"
     ],
     "classificacao": 18,
     "nota": 6.5,
@@ -1254,7 +1253,7 @@
     "genero": [
       "drama",
       "misterio",
-      "sci-fi & fantasy"
+      "ficcao cientifica"
     ],
     "classificacao": 18,
     "nota": 7.8,
@@ -1266,9 +1265,9 @@
     "titulo": "Mushoku Tensei: Jobless Reincarnation",
     "tipo": "serie",
     "genero": [
-      "action & adventure",
+      "acao",
       "animacao",
-      "sci-fi & fantasy"
+      "ficcao cientifica"
     ],
     "classificacao": 16,
     "nota": 8.6,
@@ -1289,5 +1288,462 @@
     "sinopse": "Detetives que fazem parte da Unidade de Vítimas Especiais da polícia de Nova York investigam crimes de natureza sexual, como estupros, em que a vítima sobrevive, e auxilia as autoridades na investigação.",
     "onde": "Netflix",
     "poster": "https://image.tmdb.org/t/p/w500/nYkYmNFfKydgrcO45oNjOnW0FDJ.jpg"
+  },
+  {
+    "titulo": "O Limite do Prazer",
+    "tipo": "filme",
+    "genero": [
+      "crime",
+      "suspense"
+    ],
+    "classificacao": 18,
+    "nota": 4.2,
+    "sinopse": "Quando o recluso Franklin trai sua garota com uma mulher misteriosa que ele conhece em um aplicativo de namoro, isso se torna o início de uma obsessão mortal.",
+    "onde": "A definir",
+    "poster": "https://image.tmdb.org/t/p/w500/fmLQaEPC9uRCbjPs1NI4S90qimH.jpg"
+  },
+  {
+    "titulo": "Vixen!",
+    "tipo": "filme",
+    "genero": [
+      "drama"
+    ],
+    "classificacao": 18,
+    "nota": 5.6,
+    "sinopse": "Este é o primeiro filme daquela que viria a ser a mais conhecida série do realizador de culto da comédia erótica norte americana, Russ Meyer, o mestre inconfundível do cinema que nos deu a ver as mais generosamente dotadas mulheres do mundo.  Vixen é uma jovem e esplendorosa mulher que vive com o seu marido numa estalagem na floresta. Vixen é uma força da natureza e no convivio diário com a vida selvagem, os seus sentidos estão sempre à beira de explodir. Para Vixen, fazer amor é como respirar e uma alegria que tem que partilhar com toda a gente: o jovem marido, o irmão, o guarda-florestal, um casal em visita, de que nem a mulher escapa...\r Vixen é uma bela e escultural rapariga, uma mulher insaciavel, que não sabe dizer que não...",
+    "onde": "A definir",
+    "poster": "https://image.tmdb.org/t/p/w500/wJScc4TQpz7FZmTl0GN11Xf4X8q.jpg"
+  },
+  {
+    "titulo": "O Novato",
+    "tipo": "serie",
+    "genero": [
+      "comedia",
+      "crime",
+      "drama"
+    ],
+    "classificacao": 14,
+    "nota": 8.0,
+    "sinopse": "John Nolan, um homem de 40 anos, deixa para trás sua vida confortável em uma cidade pequena para viver seu sonho de ser um agente policial no Departamento de Polícia de Los Angeles. Como o novato mais velho, ele enfrenta a descrença de seus colegas.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/yCPGrd6fzbftuaH97OUS6tUdE4B.jpg"
+  },
+  {
+    "titulo": "O Mentalista",
+    "tipo": "serie",
+    "genero": [
+      "crime",
+      "drama",
+      "misterio"
+    ],
+    "classificacao": 14,
+    "nota": 8.2,
+    "sinopse": "Patrick Jane é famoso por sua habilidade de alta percepção de tudo que está ao seu redor. Ele já quase foi uma celebridade, alegando ser médium vidente, mas agora admite que fingia ter poderes paranormais. Com sua grande habilidade de observação, Patrick trabalha como consultor independente para as autoridades da Califórnia, resolvendo um número considerável de crimes complicados.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/d1ZcT5tHzUeQ7zgYecOVoWxH9FL.jpg"
+  },
+  {
+    "titulo": "Lei & Ordem",
+    "tipo": "serie",
+    "genero": [
+      "crime",
+      "drama"
+    ],
+    "classificacao": 14,
+    "nota": 7.8,
+    "sinopse": "O drama mostra o processo complicado de determinar a culpa ou a inocência, quando vidas estão em jogo. Muitas vezes inspirado pelas notícias mais recentes, o enredo destaca dilemas éticos e pessoais.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/9ez0xyH6IIg8Ww4hNpiD9lHRRH7.jpg"
+  },
+  {
+    "titulo": "Gotham",
+    "tipo": "serie",
+    "genero": [
+      "crime",
+      "drama",
+      "ficcao cientifica"
+    ],
+    "classificacao": 16,
+    "nota": 7.8,
+    "sinopse": "O tenente James Gordon chega a Gotham com o intuito de combater a corrupção. Gordon tenta fazer a diferença e começa investigando o assassinato de Thomas e Martha Wayne, cujas mortes deixaram órfão seu filho Bruce.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/oHytYCHLw1ZKcaBtsyZUMSgbh8q.jpg"
+  },
+  {
+    "titulo": "Harry Potter e o Prisioneiro de Azkaban",
+    "tipo": "filme",
+    "genero": [
+      "aventura",
+      "fantasia"
+    ],
+    "classificacao": 12,
+    "nota": 7.9,
+    "sinopse": "É o início do terceiro ano na escola de magia e bruxaria de Hogwarts. Harry, Ron e Hermione têm muito o que aprender. Mas uma ameaça ronda a escola e ela se chama Sirius Black. Após doze anos encarcerado na prisão de Azkaban, ele consegue escapar e volta para vingar seu mestre, Lord Voldemort. Para piorar, os Dementores, guardas supostamente enviados para proteger Hogwarts e seguir os passos de Black, parecem ser ameaças ainda mais perigosas.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/1HdMUghqlgOIvbsU9ZtO40IPRzl.jpg"
+  },
+  {
+    "titulo": "Uma Noite no Museu",
+    "tipo": "filme",
+    "genero": [
+      "comedia",
+      "familia",
+      "fantasia"
+    ],
+    "classificacao": 0,
+    "nota": 6.5,
+    "sinopse": "Quando Larry Daley é contratado como guarda noturno no museu, ele logo descobre que todos os seres do museu ganham vida após o pôr-do-sol. Logo de cara, Larry se vê frente a frente com um brincalhão esqueleto de T. Rex, mas também é cercado por exércitos de minúsculos soldados romanos e por caubóis armados. Para completar, há um macaquinho endiabrado que o deixa maluco! Mas talvez ele consiga descobrir um modo de controlar o caos e tornar-se um herói aos olhos de seu filho.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/Pca1hVNgPAUcp6zVHldlboh80R.jpg"
+  },
+  {
+    "titulo": "Con Air: A Rota da Fuga",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "crime",
+      "suspense"
+    ],
+    "classificacao": 16,
+    "nota": 6.9,
+    "sinopse": "Cameron Poe conquistou a liberdade condicional e pega carona em um voo que transporta diversos criminosos do país, entre eles, o psicopata Cyrus. Mas o que era para ser apenas uma viagem torna-se um grande pesadelo, porque os bandidos assumem o controle do avião para sair do país e dão início a um insano plano de fuga. Agora, Poe terá que fingir que está de acordo com eles para se manter vivo e depois tentar reverter a situação.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/5PKm5WG7cBGFmnfmPqZjOEyw0lp.jpg"
+  },
+  {
+    "titulo": "O Primeiro Amor",
+    "tipo": "filme",
+    "genero": [
+      "drama",
+      "romance"
+    ],
+    "classificacao": 18,
+    "nota": 7.7,
+    "sinopse": "Juli e Bryce se conheceram aos sete anos de idade. Ela sempre admirou o menino, mas ele achava a vizinha meio estranha. Aos 13 tudo muda e ele começa a se apaixonar pela menina. Juntos, eles compartilharam diversas experiências amorosas, como o famoso primeiro beijo, que faz parte da vida de todo adolescente.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/uURMTc8sSswigTHpV42TV6xhRkh.jpg"
+  },
+  {
+    "titulo": "Lightyear",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "aventura",
+      "familia",
+      "ficcao cientifica"
+    ],
+    "classificacao": 10,
+    "nota": 6.1,
+    "sinopse": "O lendário Buzz Lightyear e sua tripulação cumprem a missão mais difícil de todas até agora. Eles devem aprender a trabalhar juntos para escaparem do malvado Zurg e de seu exército de robôs.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/quK8xFFhFsAlPTjxEL6CXytuYCr.jpg"
+  },
+  {
+    "titulo": "O Incrível Circo Digital",
+    "tipo": "serie",
+    "genero": [
+      "animacao",
+      "comedia",
+      "drama",
+      "ficcao cientifica"
+    ],
+    "classificacao": 12,
+    "nota": 8.2,
+    "sinopse": "Uma mulher vai parar em um circo virtual bizarro com outras cinco pessoas, onde são forçadas a participar de jogos sob as ordens de uma inteligência artificial bem louca.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/m6IDVi9F5G5ugrGNhKFFBYXZi6B.jpg"
+  },
+  {
+    "titulo": "Pacificador",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "comedia",
+      "ficcao cientifica"
+    ],
+    "classificacao": 16,
+    "nota": 8.2,
+    "sinopse": "A série explorará as origens do Pacificador, um homem que acredita na paz a qualquer custo - não importa quantas pessoas ele tenha que matar para obtê-la.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/fbW4ym5rgMRkNjNAzpZQX5vkxMf.jpg"
+  },
+  {
+    "titulo": "O Hobbit: A Desolação de Smaug",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "fantasia"
+    ],
+    "classificacao": 12,
+    "nota": 7.8,
+    "sinopse": "Ao lado de um grupo de anões e de Gandalf, Bilbo segue em direção à Montanha Solitária, onde deverá ajudar seus companheiros a retomar a Pedra de Arken. O problema é que o artefato está perdido em meio a um tesouro protegido pelo temido dragão Smaug.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/ws5z2UmmVzRDD8hZtHTHfcqTOAW.jpg"
+  },
+  {
+    "titulo": "Thor: Amor e Trovão",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "comedia",
+      "fantasia"
+    ],
+    "classificacao": 14,
+    "nota": 6.1,
+    "sinopse": "Thor parte em uma jornada de autodescoberta, diferente de tudo que ele já enfrentou. Mas seus esforços são interrompidos por um assassino galáctico conhecido como Gorr, o Carniceiro dos Deuses, que busca a extinção dos deuses. Para combater esta ameaça, Thor pede a ajuda da Rei Valquíria, Korg e da ex-namorada Jane Foster, que, para a surpresa de Thor, inexplicavelmente empunha seu mágico martelo, Mjolnir, como a Poderosa Thor. Juntos, eles embarcam em uma angustiante aventura cósmica para descobrir o mistério da vingança do Carniceiro dos Deuses e detê-lo antes que seja tarde demais.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/8gdBMIYwPPxp3b9FjY9yCxme5Rs.jpg"
+  },
+  {
+    "titulo": "FBI: Os Mais Procurados",
+    "tipo": "serie",
+    "genero": [
+      "crime",
+      "drama"
+    ],
+    "classificacao": 14,
+    "nota": 6.9,
+    "sinopse": "Uma equipe do FBI se dedica a rastrear e capturar criminosos que estão no topo da lista de foragidos da organização.",
+    "onde": "Globoplay",
+    "poster": "https://image.tmdb.org/t/p/w500/vRoyQUWQIba6CVu2rhTGAHKgZRZ.jpg"
+  },
+  {
+    "titulo": "Maxton Hall - O Mundo Entre Nós",
+    "tipo": "serie",
+    "genero": [
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 7.5,
+    "sinopse": "Quando Ruby testemunha, sem querer, um segredo explosivo na escola particular de Maxton Hall, o arrogante e milionário herdeiro James Beaufort tem que lidar, para seu desgosto, com a perspicaz estudante bolsista, e está determinado a silenciar Ruby. A apaixonada troca de insultos entre eles surpreendentemente acende uma faísca...",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/kI6BaSBXgHQ3naB4vwvB8eK6JtK.jpg"
+  },
+  {
+    "titulo": "Golias",
+    "tipo": "serie",
+    "genero": [
+      "crime",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 8.1,
+    "sinopse": "Billy McBride, antes um advogado poderoso, hoje parece um caso perdido que passa mais tempo no bar do que nos tribunais. Quando ele, relutantemente, aceita processar por negligência o maior cliente da gigantesca firma que ajudou a criar, Billy e sua desorganizada equipe descobrem uma vasta e mortal conspiração, que os lança em uma disputa que remete à luta entre Davi e Golias.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/yiTTeFYdfQqkBLJLbuyZqnXC2kE.jpg"
+  },
+  {
+    "titulo": "Star Wars: O Despertar da Força",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "ficcao cientifica"
+    ],
+    "classificacao": 12,
+    "nota": 5.8,
+    "sinopse": "A queda de Darth Vader e do Império levou ao surgimento de uma nova força sombria: a Primeira Ordem. Eles procuram o jedi Luke Skywalker, desaparecido. A resistência tenta desesperadamente encontrá-lo antes para salvar a galáxia.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/lqMDbo4rXnakFgc4C6LzPv6pG7F.jpg"
+  },
+  {
+    "titulo": "The Equalizer - A Protetora",
+    "tipo": "serie",
+    "genero": [
+      "crime",
+      "drama"
+    ],
+    "classificacao": 14,
+    "nota": 5.6,
+    "sinopse": "Bastante determinada, ﻿Robyn McCall é uma mãe solteira que utiliza suas habilidades incríveis como ex-agente da CIA para ajudar as pessoas que mais precisam.",
+    "onde": "Globoplay",
+    "poster": "https://image.tmdb.org/t/p/w500/yBtMYM5lZcKd4jW46RUXChbbXbP.jpg"
+  },
+  {
+    "titulo": "Operação Cupido",
+    "tipo": "filme",
+    "genero": [
+      "comedia",
+      "familia",
+      "romance"
+    ],
+    "classificacao": 0,
+    "nota": 6.7,
+    "sinopse": "As gêmeas Hallie e Annie foram separadas ainda pequenas. Uma ficou com a mãe, Elizabeth, e outra com o pai, Nicholas. Um dia as duas se encontram num acampamento de verão e se dão conta do parentesco até então desconhecido. Elas trocam de lugar na volta para a casa e elaboram um plano para que o casal volte às boas e a família enfim possa se reunir.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/3VUKjD23w6nnmTTjCc2AqBefQzt.jpg"
+  },
+  {
+    "titulo": "365 Dias Finais",
+    "tipo": "filme",
+    "genero": [
+      "drama",
+      "romance"
+    ],
+    "classificacao": 18,
+    "nota": 2.9,
+    "sinopse": "A falta de confiança deixa a relação entre Laura e Massimo por um fio. Enquanto isso, Nacho usa de sua esperteza para afastá-los ainda mais.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/2pxKwxMbd5l3BxK5fBgVCWYweH2.jpg"
+  },
+  {
+    "titulo": "Beyblade Burst",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "animacao",
+      "comedia",
+      "familia",
+      "infantil",
+      "ficcao cientifica"
+    ],
+    "classificacao": 18,
+    "nota": 7.1,
+    "sinopse": "Valt Aoi é um garoto cheio de energia que adora atacar e manejar uma Beyblade chamada Valtryek. Seu melhor amigo Shu Kurenai é um Blader de elite que é um gênio, mas ainda se esforça bastante usando a Beyblade chamada Spryzen.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/fG7BHxDlntPyB57UuNo9sXmAmLV.jpg"
+  },
+  {
+    "titulo": "Evil: Contatos Sobrenaturais",
+    "tipo": "serie",
+    "genero": [
+      "crime",
+      "drama",
+      "misterio"
+    ],
+    "classificacao": 16,
+    "nota": 7.7,
+    "sinopse": "Uma psicóloga cética e um padre em formação investigam mistérios que envolvem a Igreja Católica, dentre eles posses demoníacas, espíritos e supostos milagres.",
+    "onde": "Globoplay",
+    "poster": "https://image.tmdb.org/t/p/w500/2gyQRudrRU276fvkXMq4JNq3hzB.jpg"
+  },
+  {
+    "titulo": "Viúva Negra",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "ficcao cientifica"
+    ],
+    "classificacao": 12,
+    "nota": 6.6,
+    "sinopse": "Natasha Romanoff, também conhecida como Viúva Negra, confronta o lado mais sombrio de sua história quando surge uma perigosa conspiração ligada ao seu passado. Perseguida por uma força implacável disposta a tudo para destruí-la, Natasha precisa agora lidar com seu passado como espiã e com as relações que deixou para trás muito antes de se tornar uma Vingadora.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/lrJ9QI2HMbO8N2S2r2v7fjtou5c.jpg"
+  },
+  {
+    "titulo": "Sonic: O Filme",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "comedia",
+      "familia",
+      "ficcao cientifica"
+    ],
+    "classificacao": 0,
+    "nota": 6.5,
+    "sinopse": "Sonic, o ouriço azul mais veloz do mundo, vive isolado e sem amigos na Terra desde que precisou fugir de seu planeta natal. Todavia, ele recebe a ajuda de um policial quando o Dr. Ivo Robotinik, a mando do governo dos Estados Unidos, começa a persegui-lo.",
+    "onde": "Paramount+",
+    "poster": "https://image.tmdb.org/t/p/w500/eOC0FSGqyzcnnx7XFgLazI9nACT.jpg"
+  },
+  {
+    "titulo": "Godzilla e Kong: O Novo Império",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "ficcao cientifica"
+    ],
+    "classificacao": 12,
+    "nota": 6.0,
+    "sinopse": "O poderoso Kong e o temível Godzilla se unem contra uma colossal ameaça mortal escondida no mundo dos humanos, que ameaça a existência de sua espécie e da nossa. Mergulhando profundamente nos mistérios da Ilha da Caveira e nas origens da Terra Oca, o filme irá explorar a antiga batalha de Titãs que ajudou a forjar esses seres extraordinários e os ligou à humanidade para sempre.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/fWSGD2yrzz6hscocnMD8AEXIThk.jpg"
+  },
+  {
+    "titulo": "Fauda",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "drama",
+      "guerra e politica"
+    ],
+    "classificacao": 14,
+    "nota": 8.3,
+    "sinopse": "Fauda (palavra árabe para “Caos”) acompanha um grupo de agentes israelenses que trabalham disfarçados na Palestina a fim de encontrar um terrorista do Hamas, ao mesmo tempo em que mostra a trágica vida de uma família palestina que leva a um crescente ódio por Israel.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/awgmWk2TrCLrwynSjeK4zmI6iXR.jpg"
+  },
+  {
+    "titulo": "Eu Sou a Lenda",
+    "tipo": "filme",
+    "genero": [
+      "drama",
+      "ficcao cientifica",
+      "suspense"
+    ],
+    "classificacao": 14,
+    "nota": 7.2,
+    "sinopse": "Robert Neville é um brilhante cientista e o único sobrevivente de uma epidemia que transformou os humanos em mutantes sedentos por sangue. Andando pela cidade de Nova York, ele procura por outros possíveis sobreviventes e tenta achar a cura da praga usando seu próprio sangue, que é imune.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/j2jb6DwNCPIU2LtUrJ9zoQIGvSz.jpg"
+  },
+  {
+    "titulo": "Hotel Transilvânia",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "comedia",
+      "familia",
+      "fantasia"
+    ],
+    "classificacao": 0,
+    "nota": 7.0,
+    "sinopse": "O Hotel Transilvânia é um resort cinco estrelas que serve de refúgio para que os monstros possam descansar do árduo trabalho de perseguir e assustar os humanos. O local é comandado pelo Conde Drácula, que resolve convidar os amigos para comemorar o 118º aniversário de sua filha, Mavis. O que ele não esperava era que Jonathan, um humano sem noção, fosse aparecer no local justo quando o hotel está repleto de convidados e, ainda por cima, se apaixonasse por Mavis.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/i9kAWShk7qrqril2dLboP0hi8I2.jpg"
+  },
+  {
+    "titulo": "Chame a Parteira",
+    "tipo": "serie",
+    "genero": [
+      "drama"
+    ],
+    "classificacao": 12,
+    "nota": 8.6,
+    "sinopse": "Drama acompanhando a vida de um grupo de parteiras que trabalhava no East End de Londres, atingido pela pobreza, durante a década de 1950, com base nas memórias best-sellers de Jennifer Worth.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/dFJZtbcPFGkHXvFVS0Co60tJCo2.jpg"
+  },
+  {
+    "titulo": "Os Pinguins de Madagascar - O Filme",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "aventura",
+      "comedia",
+      "familia"
+    ],
+    "classificacao": 0,
+    "nota": 6.6,
+    "sinopse": "Os valentes pinguins Capitão, Kowalski, Rico e Recruta se unem a uma força de elite, chamada Vento do Norte, para impedir que o vilão Dr. Octavius Brine acabe com os pinguins do mundo todo.",
+    "onde": "Globoplay",
+    "poster": "https://image.tmdb.org/t/p/w500/w9jno0ySammISRGvc0RZREjYUvg.jpg"
+  },
+  {
+    "titulo": "Matrix Revolutions",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "ficcao cientifica",
+      "suspense"
+    ],
+    "classificacao": 12,
+    "nota": 6.7,
+    "sinopse": "Após enfrentar os sentinelas no mundo real, Neo, a maior esperança da humanidade, está preso entre a Matrix e a realidade. A maioria da população do planeta permanece em um estado de suspensão da realidade virtual. Os poucos humanos que estão cientes das duras realidades tentam desesperadamente afastar as máquinas a tempo de Neo escapar e salvar o dia. Mas as coisas pioram quando o poderoso programa de computador, Agente Smith, aparece na forma humana.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/92oJ810bYqijBQ8tqYL74mSpPtV.jpg"
   }
 ]

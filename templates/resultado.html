@@ -34,10 +34,21 @@
                     </div>
                 </div>
 
-                <div class="watch-providers">
-                    <label class="filter-label">Onde assistir</label>
-                    <div class="providers-list">
-                        <span class="provider-pill">{{ item.onde }}</span>
+                <div class="meta-row">
+                    <div class="genres-list">
+                        <label class="filter-label">Gêneros</label>
+                        <div class="providers-list">
+                            {% for genero in item.genero %}
+                                <span class="provider-pill">{{ genero.capitalize() }}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <div class="watch-providers">
+                        <label class="filter-label">Onde assistir</label>
+                        <div class="providers-list">
+                            <span class="provider-pill">{{ item.onde }}</span>
+                        </div>
                     </div>
                 </div>
 
