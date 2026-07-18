@@ -108,7 +108,8 @@
     "tipo": "filme",
     "genero": [
       "animacao",
-      "drama"
+      "drama",
+      "infantil"
     ],
     "classificacao": 0,
     "nota": 8.5,
@@ -239,7 +240,8 @@
     "tipo": "filme",
     "genero": [
       "comedia",
-      "animacao"
+      "animacao",
+      "infantil"
     ],
     "classificacao": 0,
     "nota": 7.9,
@@ -252,7 +254,8 @@
     "tipo": "filme",
     "genero": [
       "animacao",
-      "comedia"
+      "comedia",
+      "infantil"
     ],
     "classificacao": 0,
     "nota": 8.1,
@@ -656,7 +659,8 @@
     "tipo": "serie",
     "genero": [
       "acao",
-      "animacao"
+      "animacao",
+      "infantil"
     ],
     "classificacao": 0,
     "nota": 9.3,
@@ -964,7 +968,8 @@
       "animacao",
       "aventura",
       "comedia",
-      "familia"
+      "familia",
+      "infantil"
     ],
     "classificacao": 10,
     "nota": 7.5,
@@ -1103,7 +1108,8 @@
       "animacao",
       "aventura",
       "comedia",
-      "familia"
+      "familia",
+      "infantil"
     ],
     "classificacao": 0,
     "nota": 8.3,
@@ -1132,7 +1138,8 @@
       "animacao",
       "aventura",
       "comedia",
-      "familia"
+      "familia",
+      "infantil"
     ],
     "classificacao": 0,
     "nota": 7.6,
@@ -1212,7 +1219,8 @@
     "genero": [
       "animacao",
       "familia",
-      "fantasia"
+      "fantasia",
+      "infantil"
     ],
     "classificacao": 10,
     "nota": 8.6,
@@ -1696,7 +1704,8 @@
       "animacao",
       "comedia",
       "familia",
-      "fantasia"
+      "fantasia",
+      "infantil"
     ],
     "classificacao": 0,
     "nota": 7.0,
@@ -1723,7 +1732,8 @@
       "animacao",
       "aventura",
       "comedia",
-      "familia"
+      "familia",
+      "infantil"
     ],
     "classificacao": 0,
     "nota": 6.6,
@@ -1745,5 +1755,1690 @@
     "sinopse": "Após enfrentar os sentinelas no mundo real, Neo, a maior esperança da humanidade, está preso entre a Matrix e a realidade. A maioria da população do planeta permanece em um estado de suspensão da realidade virtual. Os poucos humanos que estão cientes das duras realidades tentam desesperadamente afastar as máquinas a tempo de Neo escapar e salvar o dia. Mas as coisas pioram quando o poderoso programa de computador, Agente Smith, aparece na forma humana.",
     "onde": "Netflix",
     "poster": "https://image.tmdb.org/t/p/w500/92oJ810bYqijBQ8tqYL74mSpPtV.jpg"
+  },
+  {
+    "titulo": "Dias Perfeitos",
+    "tipo": "filme",
+    "genero": [
+      "drama"
+    ],
+    "classificacao": 12,
+    "nota": 7.9,
+    "sinopse": "A história de Hirayama, um homem de meia idade reflexivo que vive sua vida de forma modesta como zelador e limpando banheiros em Tóquio. Sua vida é revelada ao espectador através da música que ouve, dos livros que lê e das fotos que tira das árvores, uma vez que são suas três paixões. À medida que a vida de Hirayama avança, encontros inesperados começam a surgir revelando um passado sombrio e não tão metódico do zelador.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/p4oCDJgtYPg8lWqmeNIsqPwzZ7X.jpg"
+  },
+  {
+    "titulo": "X: A Marca da Morte",
+    "tipo": "filme",
+    "genero": [
+      "terror"
+    ],
+    "classificacao": 18,
+    "nota": 6.5,
+    "sinopse": "Em 1979, um grupo de jovens cineastas se propôs a fazer um filme adulto na zona rural do Texas, mas quando seus solitários e idosos anfitriões os pegam em flagrante, o elenco se vê lutando por suas vidas.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/4BarWJRYFB5fN7LsJI9U2ul79hB.jpg"
+  },
+  {
+    "titulo": "Meninas Malvadas",
+    "tipo": "filme",
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "classificacao": 12,
+    "nota": 7.1,
+    "sinopse": "Criada na selva africana por seus pais zoólogos, Cady acha que sabe tudo sobre \"sobrevivência dos mais bem dotados\". Mas a lei da selva toma um significado totalmente novo, quando a garota, entra na escola pública.",
+    "onde": "Globoplay",
+    "poster": "https://image.tmdb.org/t/p/w500/iV7YxvjdmRZo0amjGA2BZW5kkAu.jpg"
+  },
+  {
+    "titulo": "Veep",
+    "tipo": "serie",
+    "genero": [
+      "comedia",
+      "Guerra e política"
+    ],
+    "classificacao": 12,
+    "nota": 8.4,
+    "sinopse": "Veep acompanha a vida da ex-senadora Selina Meyer, agora vice-presidente dos Estados Unidos, que se vê despreparada ao encarar a possibilidade de assumir a presidência quando o estado de saúde do presidente chega a um estado crítico.  Selina e sua equipe vão descobrir que nada é como se esperava e terão muito trabalho para passar pelas intrigas da política com classe.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/cdd78fGdaA3EbK2ToZRWcaaB1fx.jpg"
+  },
+  {
+    "titulo": "Sing 2",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "comedia",
+      "familia",
+      "musica",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 7.3,
+    "sinopse": "Buster Moon e seus amigos devem persuadir o recluso astro do rock Clay Calloway a se juntar a eles para a abertura de um novo show.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/3GR2a4IGp83ekkKQLB08IcUmc2S.jpg"
+  },
+  {
+    "titulo": "Avenida Brasil",
+    "tipo": "serie",
+    "genero": [
+      "crime",
+      "drama",
+      "misterio"
+    ],
+    "classificacao": 12,
+    "nota": 8.4,
+    "sinopse": "Rita é abandonada no lixão pela madrasta após seu pai morrer. Anos depois e sob nova identidade, a menina se infiltra na mansão da nova família de Carminha para se vingar dela.",
+    "onde": "Globoplay",
+    "poster": "https://image.tmdb.org/t/p/w500/p8uzK1Lngu9q9dpnn4SwPKIT1H7.jpg"
+  },
+  {
+    "titulo": "A Princesa e o Sapo",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "familia",
+      "fantasia",
+      "romance",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 7.2,
+    "sinopse": "Desde criança, Tiana sonha em ter um restaurante próprio. Para conseguir a quantia necessária para que possa finalmente alugar o imóvel de seus sonhos, ela aceita trabalhar na festa realizada por Charlotte LaBouff, sua amiga de infância. Logo surge um sapo, anunciando ser um príncipe e pedindo a Tiana que lhe conceda um beijo. Tiana aceita e se transforma em sapo!",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/5JQbaVcFd9x5snwWT9gquNKmDC.jpg"
+  },
+  {
+    "titulo": "Godzilla II: Rei dos Monstros",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "ficcao cientifica"
+    ],
+    "classificacao": 12,
+    "nota": 6.0,
+    "sinopse": "Membros da agência Monarch enfrentam monstros gigantescos, incluindo o poderoso Godzilla, que entra em choque com Mothra, Rodan e seu maior inimigo, King Ghidorah, o monstro de três cabeças. Essas antigas superespécies disputam a supremacia, deixando a própria existência da humanidade em risco.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/2umU3r6V4V2gTmSnZJmH61nTorF.jpg"
+  },
+  {
+    "titulo": "Liga da Justiça de Zack Snyder",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "fantasia"
+    ],
+    "classificacao": 14,
+    "nota": 7.9,
+    "sinopse": "Determinado a garantir que o sacrifício final do Superman não foi em vão, Bruce Wayne alinha forças com Diana Prince com planos de recrutar uma equipe de metahumanos para proteger o mundo de uma ameaça de proporções catastróficas que se aproxima.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/lsZ5dmMuvZVNMBrkozvJedujbgU.jpg"
+  },
+  {
+    "titulo": "Jurassic World: Reino Ameaçado",
+    "tipo": "filme",
+    "genero": [
+      "aventura",
+      "ficcao cientifica",
+      "suspense"
+    ],
+    "classificacao": 12,
+    "nota": 6.1,
+    "sinopse": "Quatro anos após o fechamento do Jurassic World, um vulcão prestes a entrar em erupção põe em risco a vida na ilha Nublar. No local não há mais qualquer presença humana, com os dinossauros vivendo livremente. Diante da situação, é preciso tomar uma decisão: deve-se retornar à ilha para salvar os animais ou abandoná-los para uma nova extinção? Decidida a resgatá-los, Claire convoca Owen a retornar à ilha com ela.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/pi23N55j5ezB2wvybgAFuSGrVHB.jpg"
+  },
+  {
+    "titulo": "Aladdin",
+    "tipo": "filme",
+    "genero": [
+      "aventura",
+      "familia",
+      "fantasia",
+      "romance"
+    ],
+    "classificacao": 10,
+    "nota": 8.0,
+    "sinopse": "Um jovem humilde descobre uma lâmpada mágica, com um gênio que pode lhe conceder desejos. Agora o rapaz quer conquistar a moça por quem se apaixonou, mas o que ele não sabe é que a jovem é uma princesa que está prestes a se noivar. Com a ajuda do Gênio, ele tenta se passar por um príncipe para conquistar o amor da moça e a confiança do pai dela.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/1d8HShFOmSWDwvqtvPEZqzlZbYl.jpg"
+  },
+  {
+    "titulo": "Coragem, o Cão Covarde",
+    "tipo": "serie",
+    "genero": [
+      "animacao",
+      "comedia",
+      "familia",
+      "infantil",
+      "ficcao cientifica",
+      "fantasia"
+    ],
+    "classificacao": 0,
+    "nota": 8.3,
+    "sinopse": "Coragem é um cão incrivelmente tímido e muito fácil de assustar que precisa defender um velho casal de aposentados de acontecimentos paranormais que ameaçam a segurança e a estabilidade da sua casa.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/yLn8nI9Ec3LZ1WflYxo9MjF4BBg.jpg"
+  },
+  {
+    "titulo": "Kong: A Ilha da Caveira",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "fantasia"
+    ],
+    "classificacao": 12,
+    "nota": 6.7,
+    "sinopse": "Um ex-militar viaja com um grupo de desbravadores até a mítica Ilha da Caveira, onde seu irmão desapareceu enquanto procurava o Titan, soro que teria o poder de curar todas as doenças. Além de resgatar o irmão, o homem irá enfrentar as criaturas que habitam o local. A equipe de exploradores se aventura nas profundezas da ilha desconhecida no Pacífico, que é tão bonita quanto traiçoeira, sem saber que estão atravessando para o domínio do mítico Kong.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/y7ZdnfEA8AEyCFdojYBxeevtZtc.jpg"
+  },
+  {
+    "titulo": "Homem de Ferro 2",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "ficcao cientifica"
+    ],
+    "classificacao": 12,
+    "nota": 6.9,
+    "sinopse": "Em um mundo ciente da existência do Homem de Ferro, o inventor bilionário Tony Stark sofre pressão de todos os lados para compartilhar sua tecnologia com as forças armadas. Ele resiste para divulgar os segredos de sua inigualável armadura, com medo de que estas informações caiam nas mãos erradas.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/vzROjQbgKWMVf2EldXipCcjpuBL.jpg"
+  },
+  {
+    "titulo": "Southland: Cidade do Crime",
+    "tipo": "serie",
+    "genero": [
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 8.5,
+    "sinopse": "Das praias de Malibu às ruas de East Los Angeles, Southland é um drama que leva o espectador para dentro das vidas dos policiais, criminosos, vítimas e suas famílias.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/yZMUTshsyVZd50yB6u3YXN10nAV.jpg"
+  },
+  {
+    "titulo": "Ben 10: Omniverse",
+    "tipo": "serie",
+    "genero": [
+      "action & adventure",
+      "animacao",
+      "infantil",
+      "ficcao cientifica",
+      "fantasia"
+    ],
+    "classificacao": 0,
+    "nota": 6.5,
+    "sinopse": "Ben 10 está pronto para ser um herói independente, mas o Vô Max o faz se juntar a um parceiro novato.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/Re9I5tauOspaJxYCIqRqavKT4F.jpg"
+  },
+  {
+    "titulo": "O Predador",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "ficcao cientifica",
+      "suspense"
+    ],
+    "classificacao": 16,
+    "nota": 7.8,
+    "sinopse": "O major Alan \"Dutch\" Schaefer lidera uma equipe de resgate em uma selva da América Central, para tentar encontrar um ministro estrangeiro e funcionários do governo que saíram da rota e se perderam. O exército acredita que eles estejam nas mãos de guerrilheiros, mas o que eles não imaginam é que a floresta esconde uma ameaça mortal, um ser de outro planeta, fortemente armado, que sente enorme prazer em matar.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/3RuuLeX487syJrV1olkQCFbHrIv.jpg"
+  },
+  {
+    "titulo": "Ozark",
+    "tipo": "serie",
+    "genero": [
+      "crime",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 8.4,
+    "sinopse": "Um consultor financeiro se muda com a família para as montanhas do Missouri com o objetivo de lavar quinhentos milhões de dólares e acalmar um violento traficante.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/epUO5w9nRmozR0iWCFwChT3ha6j.jpg"
+  },
+  {
+    "titulo": "Os Incríveis 2",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "animacao",
+      "aventura",
+      "familia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 7.5,
+    "sinopse": "Helena é chamada para liderar uma campanha para trazer os superheróis de volta. Enquanto Roberto deve enfrentar os desafios heroicos do dia a dia da vida doméstica. Mas quando um novo vilão aparece com um plano brilhante e perigoso, a família Pêra enfrenta o desafio juntos  com Gelado do lado deles.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/6et98yxnctR6uH16x3uJuIVKsPf.jpg"
+  },
+  {
+    "titulo": "Sr. & Sra. Smith",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "comedia",
+      "drama",
+      "suspense"
+    ],
+    "classificacao": 12,
+    "nota": 6.5,
+    "sinopse": "John e Jane Smith aparentemente parecem formar um casal normal, mas na realidade ambos mantêm um segredo. Os dois são assassinos de aluguel contratados por empresas rivais. A verdade só vem à tona quando John e Jane, sem saber, recebem uma missão para eliminar o mesmo alvo e mais tarde descobrem que devem matar um ao outro.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/7mTudJmBLUrRxkbABfFeXJFv8I7.jpg"
+  },
+  {
+    "titulo": "Hajime no Ippo",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "animacao",
+      "comedia",
+      "drama"
+    ],
+    "classificacao": 18,
+    "nota": 0.0,
+    "sinopse": "A história segue Ippo Makunouchi, um estudante do ensino médio que mora sozinho com sua mãe. Desde criança é um filho dedicado que ajuda no negócio de aluguel de barcos de pesca da família. Com uma natureza gentil, ele é vítima de agressores em sua escola e sempre sofre bullying no caminho para casa. Porém, um dia ele é salvo pelo boxeador profissional Mamoru Takamura, que por acaso passa por ali durante sua rotina de treinamento. Vendo a habilidade de Takamura, Ippo é atraído pelo mundo do boxe. Querendo ficar mais forte, ele treina muito para se tornar um boxeador profissional. Este é o começo da sua lenda!",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/fEYVJu08En9A7n0e5TTpeoSjtIm.jpg"
+  },
+  {
+    "titulo": "The Americans",
+    "tipo": "serie",
+    "genero": [
+      "crime",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 8.4,
+    "sinopse": "Dois espiões da KGB se fazem passar por um casal americano vivendo no subúrbio de Washington. Eles tem como missão controlar a rede de informações entre os espiões que operam no país.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/w1UBlxEXhbKe8sp0fxFZh7MqTce.jpg"
+  },
+  {
+    "titulo": "Will Trent: Agente Especial",
+    "tipo": "serie",
+    "genero": [
+      "comedia",
+      "crime",
+      "drama"
+    ],
+    "classificacao": 14,
+    "nota": 7.7,
+    "sinopse": "O agente especial Will Trent, do Departamento de Investigação da Georgia (GBI), foi abandonado ao nascer e passou por uma dura fase de amadurecimento no sobrecarregado sistema de assistência social de Atlanta. Mas agora, determinado a usar seu ponto de vista único para garantir que ninguém seja abandonado como ele, Will Trent tem a maior taxa de resolução de casos do GBI.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/6Xgx6gO6nISLJfdsP2e5ougbdJa.jpg"
+  },
+  {
+    "titulo": "Um Maluco na TV",
+    "tipo": "serie",
+    "genero": [
+      "comedia"
+    ],
+    "classificacao": 14,
+    "nota": 8.3,
+    "sinopse": "A série gira em torno de Liz, uma redatora-chefe de um programa ao vivo de comédia em Nova York. As complicações aparecem quando o novo presidente da emissora, ordena Liz à contratar um astro do cinema mentalmente instável.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/3gJsH8eLDMIMVscLSdHebEmOZAZ.jpg"
+  },
+  {
+    "titulo": "A Era do Gelo 2",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "aventura",
+      "comedia",
+      "familia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 6.8,
+    "sinopse": "O aquecimento global traz ameaças de inundações generalizadas a regiões que antes eram geladas. Manny, Sid e Diego partem em busca de um refúgio seguro. Eles encontram outro mamute, mas que acredita ser um gambá.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/r4SOh2EJQe2QEfcDsrOMeKyZD05.jpg"
+  },
+  {
+    "titulo": "Barney e Seus Amigos",
+    "tipo": "serie",
+    "genero": [
+      "comedia",
+      "familia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 3.9,
+    "sinopse": "A série apresenta Barney (um dinossauro púrpura e verde de quase dois metros de altura), seus amigos Baby Bop, BJ e Riff, e um grupo de crianças. Juntos, eles cantam, dançam e estimulam a imaginação das crianças, várias estrelas como Selena Gomez, Demi Lovato e Debby Ryan já passaram pelo programa quando pequenas. Especialistas em desenvolvimento infantil supervisionam cada episódio - desde a criação do conceito ate sua produção - garantindo que o conteúdo seja transmitido de acordo com o nível de aprendizado das crianças pequenas.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/ijt54PA1pZ2ae68ODBk3vfWSK0e.jpg"
+  },
+  {
+    "titulo": "Enola Holmes 2",
+    "tipo": "filme",
+    "genero": [
+      "aventura",
+      "crime",
+      "misterio"
+    ],
+    "classificacao": 14,
+    "nota": 6.8,
+    "sinopse": "Em seu primeiro caso oficial como detetive, Enola precisa encontrar uma menina desaparecida. Para isso, ela contará com a ajuda dos amigos e do irmão, Sherlock.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/tegBpjM5ODoYoM1NjaiHVLEA0QM.jpg"
+  },
+  {
+    "titulo": "Os Pinguins de Madagascar",
+    "tipo": "serie",
+    "genero": [
+      "animacao",
+      "comedia",
+      "familia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 7.5,
+    "sinopse": "Uma turma de pinguins com muito estilo - o líder Skipper, o inteligente Kowalski, o louco Rico e o jovem Private - que vive no zoólogico do Central Park tem problemas com seus novos e indesejáveis vizinhos: os lêmures.",
+    "onde": "Paramount+",
+    "poster": "https://image.tmdb.org/t/p/w500/A48Shigo8YLltGphCfOBbvgCOti.jpg"
+  },
+  {
+    "titulo": "The Flash",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "ficcao cientifica"
+    ],
+    "classificacao": 14,
+    "nota": 6.6,
+    "sinopse": "Os mundos colidem quando Barry Allen usa seus superpoderes para viajar no tempo e mudar os acontecimentos do passado. Mas a tentativa de salvar sua família altera inadvertidamente o futuro.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/itYONYDHpJqTuu8BCXAtHxgpglq.jpg"
+  },
+  {
+    "titulo": "Planeta dos Macacos: O Reinado",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "ficcao cientifica"
+    ],
+    "classificacao": 14,
+    "nota": 6.8,
+    "sinopse": "Várias gerações no futuro, após o reinado de César, os macacos são agora a espécie dominante e vivem harmoniosamente, enquanto os humanos foram reduzidos a viver nas sombras. À medida que um novo líder símio tirânico constrói o seu império, um jovem macaco empreende uma jornada angustiante que o levará a questionar tudo o que sabia sobre o passado e a fazer escolhas que definirão um futuro tanto para os macacos como para os humanos.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/hBGnLm2A1TapONoPo7QrMpj2B6B.jpg"
+  },
+  {
+    "titulo": "Pets: A Vida Secreta dos Bichos 2",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "aventura",
+      "comedia",
+      "familia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 6.4,
+    "sinopse": "Max se vê enganado por Katie no primeiro trailer da animação e acaba dentro de uma clínica veterinária onde os pets não parecem nada normais. Nesta sequência, o protagonista ainda terá que se acostumar com um recém-chegado à família.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/lLfEOjuzNK7c8c0PpQL3UDZRde0.jpg"
+  },
+  {
+    "titulo": "Vidas Passadas",
+    "tipo": "filme",
+    "genero": [
+      "drama",
+      "romance"
+    ],
+    "classificacao": 16,
+    "nota": 7.8,
+    "sinopse": "Nora e Hae Sung são amigos de infância profundamente conectados que se separam quando a família de Nora emigra da Coreia do Sul. Duas décadas depois, se reencontram em Nova York numa semana fatídica enquanto confrontam noções de destino, amor e as escolhas que fazem uma vida, neste romance moderno comovente.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/toSI71gFF11VnLfz2uiNx6jjNUF.jpg"
+  },
+  {
+    "titulo": "Legalmente Loira",
+    "tipo": "filme",
+    "genero": [
+      "comedia"
+    ],
+    "classificacao": 10,
+    "nota": 6.5,
+    "sinopse": "Quando Elle leva um fora do namorado por ser fútil demais, ela vai estudar direito para provar do que é capaz.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/zlieYqoBgbcIhYT8CgSGu4QRXWw.jpg"
+  },
+  {
+    "titulo": "O Lorax: Em Busca da Trúfula Perdida",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "familia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 6.4,
+    "sinopse": "O menino Ted (Zac Efron) descobriu que o sonho de sua paixão, a bela Audrey (Taylor Swift), é ver uma árvore de verdade, algo em extinção. Disposto a realizar este desejo, ele embarca numa aventura por uma terra desconhecida, cheia de cor, natureza e árvores. É lá que conhece também o simpático e ao mesmo tempo rabugento Lorax (Danny DeVito), uma criatura curiosa preocupada com o futuro de seu próprio mundo.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/3rfClKuMmhFawkdCJXMEV3OGOJ3.jpg"
+  },
+  {
+    "titulo": "Neon Genesis Evangelion: O Fim do Evangelho",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "animacao",
+      "drama",
+      "fantasia",
+      "ficcao cientifica"
+    ],
+    "classificacao": 18,
+    "nota": 7.4,
+    "sinopse": "Um final alternativo para a série de anime \"Neon Genesis Evangelion\". Em The End of Evangelion, A SEELE ordena um ataque à NERV para destruir os EVAs antes que Gendo consiga provocar o Terceiro Impacto e a união das almas humanas.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/984vnfPmcerjkz8aEbqulbc2X32.jpg"
+  },
+  {
+    "titulo": "Animaniacs",
+    "tipo": "serie",
+    "genero": [
+      "animacao",
+      "comedia",
+      "familia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 7.9,
+    "sinopse": "Os irmãos Warner, Yakko e Wakko, e Dot, a irmã Warner se divertem muito causando estragos e caos na vida de todos que encontram.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/6Iu6stPN3XSCH0sfBliaeAwU2hM.jpg"
+  },
+  {
+    "titulo": "Power Rangers Fúria Cósmica",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "infantil",
+      "ficcao cientifica",
+      "fantasia"
+    ],
+    "classificacao": 0,
+    "nota": 7.1,
+    "sinopse": "Um grupo de corajosos e fortes adolescentes é recrutado para fazer a segurança do mundo contra malvados e terríveis monstros. Juntos, eles formam os Power Rangers, super-heróis com poderes e portadores de equipamentos de alta tecnologia.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/sfRvYImG1sgYyP8RI1vcOZ3KpS2.jpg"
+  },
+  {
+    "titulo": "Diário de uma Paixão",
+    "tipo": "filme",
+    "genero": [
+      "drama",
+      "romance"
+    ],
+    "classificacao": 14,
+    "nota": 7.8,
+    "sinopse": "Na década de 40, o operário Noah Calhoun e a rica Allie estão desesperadamente apaixonados, mas os pais da jovem não aprovam o namoro. Quando Noah vai para a Segunda Guerra Mundial, parece ser o fim do romance. Enquanto isso, Allie se envolve com outro homem. Mas quando Noah retorna para a pequena cidade anos mais tarde, próximo ao casamento de Allie, logo se torna claro que a paixão ainda não acabou.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/hO6k34ZNDwWzgcnzFbqYf2Rjg5W.jpg"
+  },
+  {
+    "titulo": "O.C.: Um Estranho no Paraíso",
+    "tipo": "serie",
+    "genero": [
+      "drama"
+    ],
+    "classificacao": 14,
+    "nota": 7.6,
+    "sinopse": "Nas mansões por trás dos muros, tudo parece ser perfeito. Quando Ryan Atwood, um adolescente problemático que vive se metendo em roubadas, chega em Orange County com o advogado Sandy Cohen, ele começa a descobrir que nem tudo ali naquele lugar é tão perfeito como aparenta.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/elkSBWzyZZzHeKqNQnQ6ymZDIzq.jpg"
+  },
+  {
+    "titulo": "Bob Esponja Calça Quadrada",
+    "tipo": "serie",
+    "genero": [
+      "animacao",
+      "comedia",
+      "familia",
+      "infantil"
+    ],
+    "classificacao": 12,
+    "nota": 8.2,
+    "sinopse": "Uma esponja-do-mar chamada Bob Esponja Calça Quadrada mora com seu caracol de estimação na Fenda do Biquíni, no fundo do oceano. Bob trabalha no Siri Cascudo e, nas horas vagas, vive arrumando confusões com seu melhor amigo, a estrela-do-mar Patrick.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/yXrtQINkVRyNmfUQFyVG2LuoTqm.jpg"
+  },
+  {
+    "titulo": "Impiedoso",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "suspense"
+    ],
+    "classificacao": 18,
+    "nota": 5.1,
+    "sinopse": "Um treinador de uma escola secundária, cuja filha adolescente foi assassinada, decide resolver o problema com suas próprias mãos, perseguindo os homens que sequestram suas alunas para uma operação de tráfico sexual.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/u7OmLo3OQp8fpG4uRHl1PZ8yPTh.jpg"
+  },
+  {
+    "titulo": "Cruella",
+    "tipo": "filme",
+    "genero": [
+      "comedia",
+      "crime",
+      "drama"
+    ],
+    "classificacao": 12,
+    "nota": 7.3,
+    "sinopse": "Na Londres dos anos 70 em meio à revolução do punk rock, Estella, uma garota inteligente e criativa determinada a fazer um nome para si através de seus designs. Ela faz amizade com uma dupla de jovens ladrões e, juntos, constroem uma vida para si nas ruas de Londres. Um dia, o talento de Estella para a moda chama a atenção da Baronesa Von Hellman, uma lenda fashion que é devastadoramente chique e assustadora. Mas o relacionamento delas desencadeia um curso de eventos e revelações que farão com que Estella abrace seu lado rebelde e se torne a Cruella má, elegante e voltada para a vingança.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/ljPHd7WiPVKmuXi1hgQUpZQslbC.jpg"
+  },
+  {
+    "titulo": "Green Book: O Guia",
+    "tipo": "filme",
+    "genero": [
+      "comedia",
+      "drama",
+      "historia"
+    ],
+    "classificacao": 12,
+    "nota": 8.2,
+    "sinopse": "Quando Tony Lip, um segurança ítalo-americano, é contratado como motorista do Dr. Don Shirley, um pianista negro de classe alta, durante uma turnê pelo sul dos Estados Unidos, eles devem seguir o \"O Guia\" para leva-los aos poucos estabelecimentos que eram seguros para os afro-americanos. Confrontados com o racismo, o perigo, assim como pela humanidade e o humor inesperados, eles são forçados a deixar de lado as diferenças para sobreviver e prosperar nessa jornada.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/u9dldwRwQjTZGlIxKaAtAPLAjOv.jpg"
+  },
+  {
+    "titulo": "A Era do Gelo: O Big Bang",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "aventura",
+      "comedia",
+      "familia",
+      "ficcao cientifica",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 5.7,
+    "sinopse": "Depois que o esquilo Scrat, involuntariamente, provoca um acidente espacial em sua incansável perseguição pela noz, um enorme meteoro entra em rota de colisão com a Terra, ameaçando o lar de Manny, Diego, Sid e cia. Sem saber o que fazer para reverter a situação, eles terão que confiar em Buck, a elétrica doninha caolha do terceiro filme – único do grupo que realmente tem um plano para evitar o trágico fim de todos. Paralelamente, Manny e Ellie têm que lidar com iminente saída de Amora de casa, ao passo que Diego e Shira pensam em aumentar a família e Sid finalmente parece encontrar o amor.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/e7R8ULZLdiKO2uYtXqifwf2pJfy.jpg"
+  },
+  {
+    "titulo": "Tokyo Revengers",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "animacao",
+      "crime",
+      "drama"
+    ],
+    "classificacao": 14,
+    "nota": 7.7,
+    "sinopse": "Num momento difícil da sua vida, Takemichi fica ainda pior ao saber que a menina que ele amava desde a época da escola foi morta pela gangue Tokyo Manji. No dia seguinte, ao esperar o trem na estação, Takemichi é empurrado nos trilhos. Mas, em vez de morrer, ele percebe que viajou no tempo, voltando para seus anos de escola. É a chance para Takemichi reescrever sua história e tentar evitar a morte da amada.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/XbjlgUJknGCv7cNuinxdaFUFNt.jpg"
+  },
+  {
+    "titulo": "Jogos Vorazes: A Esperança - Parte 1",
+    "tipo": "filme",
+    "genero": [
+      "aventura",
+      "ficcao cientifica",
+      "suspense"
+    ],
+    "classificacao": 14,
+    "nota": 6.6,
+    "sinopse": "Após sobreviver à temível arena dos Jogos Vorazes, Katniss Everdeen está desanimada e destruída. Depois que a Capital reduziu o Distrito 12 a destroços, ela se refugiou no Distrito 13. Peeta Mellark foi submetido a uma lavagem cerebral, e agora está sob o domínio de Snow. Então, a presidência quer que Katniss lidere uma \"resistência\" e mobilize a população em uma empreitada que irá colocá-la no centro da trama para desmascarar Snow.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/hekpVNWOROZm57RS4OLW0ySkxx9.jpg"
+  },
+  {
+    "titulo": "Animais Fantásticos e Onde Habitam",
+    "tipo": "filme",
+    "genero": [
+      "aventura",
+      "fantasia"
+    ],
+    "classificacao": 12,
+    "nota": 7.2,
+    "sinopse": "O ano é 1926 e algo misterioso, que ameaça expor o mundo bruxo, está deixando rastros de destruição nas ruas de Nova York. Newt Scamander chega à cidade durante sua excursão mundial para pesquisar e resgatar criaturas mágicas quando o No-Maj Jacbob Kowalski deixa que alguns desses animais escapem acidentalmente da maleta mágica de Newt. Então um grupo de improváveis heróis precisa recuperá-los antes que eles possam causar mais estragos. Só que a missão desse corajoso grupo está prestes a esbarrar com as poderosas forças das trevas.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/sGkt9ekX5cgRYKRIiJM27Xp3piR.jpg"
+  },
+  {
+    "titulo": "Beyblade",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "animacao",
+      "comedia",
+      "infantil",
+      "ficcao cientifica",
+      "fantasia"
+    ],
+    "classificacao": 0,
+    "nota": 6.9,
+    "sinopse": "Beyblade é um manga e anime baseado em um brinquedo de mesmo nome semelhante a um pião. A história é sobre um grupo de garotos que lutam com suas Beyblades fortemente energizadas, dominadas por Feras-Bit (que são espíritos de criaturas místicas e poderosas) sagradas.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/YwtG30zIY88LmGtOa5m4wTwxDv.jpg"
+  },
+  {
+    "titulo": "Valente",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "aventura",
+      "familia",
+      "fantasia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 7.1,
+    "sinopse": "Merida é uma arqueira talentosa e a filha obstinada do Rei Fergus e da Rainha Elinor. Determinada a seguir o seu próprio caminho, a jovem princesa desafia um antigo costume querido pelos senhores da terra. Quando desencadeia o caos no reino, Mérida tem de recorrer a todos os seus talentos e recursos (incluindo os seus irmãos trigémeos) para quebrar um feitiço horrível e descobrir o verdadeiro significado de bravura.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/gYbCpjAsyJ0uO0rKcvJ295INZZp.jpg"
+  },
+  {
+    "titulo": "Industry",
+    "tipo": "serie",
+    "genero": [
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 7.5,
+    "sinopse": "Um grupo de jovens recém-formados compete por um número limitado de vagas de emprego num dos principais bancos de investimento de Londres.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/mZ7YFEOxAKfjXJKWm0sYFXQ8n8A.jpg"
+  },
+  {
+    "titulo": "Era Uma Vez em… Hollywood",
+    "tipo": "filme",
+    "genero": [
+      "comedia",
+      "drama",
+      "suspense"
+    ],
+    "classificacao": 16,
+    "nota": 7.6,
+    "sinopse": "Los Angeles, 1969. O astro de TV Rick Dalton, um ator em dificuldades especializado em faroestes, e o dublê Cliff Booth, seu melhor amigo, tentam sobreviver em uma indústria cinematográfica em constante mudança. Dalton é vizinho da jovem e promissora atriz e modelo Sharon Tate, que acaba de se casar com o prestigiado diretor polonês Roman Polanski.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/zgr02U2Fh0sR5JtaAXY5yBU1wka.jpg"
+  },
+  {
+    "titulo": "X-Men",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "animacao",
+      "infantil",
+      "ficcao cientifica",
+      "fantasia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 8.4,
+    "sinopse": "Ao resgatarem uma jovem mutante chamada Jubileu, os X-Men travam contato com os Sentinelas, robôs criados para capturar mutantes. Magneto ataca uma base de mísseis e uma indústria química para se vingar do humanos. Wolverine reencontra seu antigo inimigo, Dentes-de-Sabre. Scott Summers e Jean Grey são sequestrados pelos Morlocks, mutantes de aparência desagradável que se exilaram nos túneis de New York. Tempestade, Gambit e Jubileu são mantidos como escravos na ilha de Genosha. Vampira procura pela Cura Mutante, e Apocalipse cria seus Quatro Cavaleiros e ataca a humanidade. Os X-Men confrontam o Fanático. Um viajante do futuro, Bishop vem para impedir que o assassinato do Senador Kelly leve a um futuro terrível para humanos e mutantes. Magneto se alia aos X-Men para impedir que as Sentinelas, comandadas pelo Molde-Mestre dominem a humanidade..",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/jRGOY8KvL7hHrJcfKfXe99C4pc5.jpg"
+  },
+  {
+    "titulo": "Elementos",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "comedia",
+      "familia",
+      "romance",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 7.0,
+    "sinopse": "Em uma cidade onde moradores do fogo, da água, da terra e do ar vivem juntos, uma jovem impetuosa e um homem tranquilo estão prestes a descobrir algo elementar: o quanto realmente têm em comum.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/tsfaRkZfUl5Ve9GMV8oY0UuLH52.jpg"
+  },
+  {
+    "titulo": "Alita: Anjo de Combate",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "ficcao cientifica"
+    ],
+    "classificacao": 14,
+    "nota": 7.3,
+    "sinopse": "Abandonada em um ferro-velho de Iron City, a ciborgue Alita é encontrada pelo cientista Dyson Ido. Revitalizada, ela acorda sem memória e reconhecimento do mundo em que se encontra. Determinada a conhecer seu passado e explorar suas habilidades surpreendentes de luta, Alita se torna uma poderosa caçadora de recompensas, combatendo forças mortais.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/xUOP8nSOcwymKeOS9L4iJbLXG74.jpg"
+  },
+  {
+    "titulo": "O Hobbit: Uma Jornada Inesperada",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "fantasia"
+    ],
+    "classificacao": 12,
+    "nota": 7.8,
+    "sinopse": "Como a maioria dos hobbits, Bilbo Bolseiro leva uma vida tranquila até o dia em que recebe uma missão do mago Gandalf. Acompanhado por um grupo de anões, ele parte numa jornada até a Montanha Solitária para libertar o Reino de Erebor do dragão Smaug.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/lZtmn2pLw1kgDYj4Ig4s3DYBQCD.jpg"
+  },
+  {
+    "titulo": "BEASTARS - O Lobo Bom",
+    "tipo": "serie",
+    "genero": [
+      "animacao",
+      "crime",
+      "drama",
+      "misterio"
+    ],
+    "classificacao": 16,
+    "nota": 7.6,
+    "sinopse": "Em um mundo onde convivem animais de todo tipo, um lobo manso começa a descobrir seus instintos predatórios justamente quando acontece um assassinato na escola.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/jJHykaBex66D01wlfPx0tcyEQ8E.jpg"
+  },
+  {
+    "titulo": "Mortal Kombat",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "fantasia"
+    ],
+    "classificacao": 16,
+    "nota": 6.1,
+    "sinopse": "O lutador de MMA Cole Young deve treinar para liberar seu verdadeiro poder para unir-se aos maiores campeões mundiais contra inimigos da Exoterra em uma batalha decisiva pelo universo.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/w8BVC3qrCWCiTHRz4Rft12dtQF0.jpg"
+  },
+  {
+    "titulo": "Infiltrado",
+    "tipo": "filme",
+    "genero": [
+      "crime",
+      "drama",
+      "suspense"
+    ],
+    "classificacao": 16,
+    "nota": 7.1,
+    "sinopse": "Harry, conhecido apenas como H, é um homem misterioso que trabalha para uma empresa de carros-fortes e movimenta grandes quantias de dinheiro pela cidade de Los Angeles. Quando, ao impedir um assalto, ele surpreende a todos com suas habilidades de combate, suas verdadeiras intenções começam a ser questionadas e um plano maior é revelado.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/rNz8wy63GAabztAUkO4xMGk3upx.jpg"
+  },
+  {
+    "titulo": "Pantera Negra",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "ficcao cientifica"
+    ],
+    "classificacao": 14,
+    "nota": 7.3,
+    "sinopse": "O príncipe T'Challa retorna a Wakanda para ser coroado rei. Assumindo o manto de Pantera Negra, ele vai à caça de um vilão que roubou um precioso metal de seu país.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/ubXNpxL2ASSzY0f8Hxv08pOsV2L.jpg"
+  },
+  {
+    "titulo": "Se Beber, Não Case! Parte II",
+    "tipo": "filme",
+    "genero": [
+      "comedia"
+    ],
+    "classificacao": 16,
+    "nota": 6.5,
+    "sinopse": "Phil, Stu, Alan e Doug viajam à exótica Tailândia para o casamento de Stu. O que poderia dar errado? Dois anos depois da desastrosa despedida de solteiro de Doug em Las Vegas, agora é a vez de Stu. Ele decide se casar na Tailândia, país de sua futura mulher. Com medo de que os incidentes da despedida de solteiro em Las Vegas se repitam, Stu organiza muito bem a comemoração, mas nada sai como o esperado, e as confusões prometem ser inimagináveis.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/lvwO6R9RImeq3UBbh6DPWG3Iiqw.jpg"
+  },
+  {
+    "titulo": "Futurama",
+    "tipo": "serie",
+    "genero": [
+      "animacao",
+      "comedia",
+      "ficcao cientifica",
+      "fantasia"
+    ],
+    "classificacao": 12,
+    "nota": 8.5,
+    "sinopse": "Fry era um simples entregador de pizza cuja vida parecia não ter nenhum propósito. Após ser congelado acidentalmente na véspera do Ano-Novo de 1999, ele desperta mil anos no futuro e ganha a chance de recomeçar em um mundo repleto de alienígenas e robôs.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/6ZS8SOno6kTmWz4eQ8lX8EBXOMv.jpg"
+  },
+  {
+    "titulo": "Procurando Dory",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "aventura",
+      "familia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 7.2,
+    "sinopse": "Um ano depois dos acontecimentos narrados em “Procurando Nemo”, Dory convive em paz com Marlin e seu filho Nemo. Mas durante uma viagem para ver como as arraias migram de volta para casa, os problemas de memória de Dory parecem desaparecer por um segundo: ela lembra que tem família e imediatamente decide fazer uma viagem para reencontrar os pais, que perdeu anos atrás.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/5MOyKnmtE2hd778bIybw9v8HkiP.jpg"
+  },
+  {
+    "titulo": "Sex Education",
+    "tipo": "serie",
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 8.2,
+    "sinopse": "Graças à mãe terapeuta, Otis sabe tudo de sexo. Para aproveitar isso, a rebelde Maeve propõe abrir uma clínica de terapia sexual na escola.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/2SUS5YMoBmJ8IYZzipTHCzIixRc.jpg"
+  },
+  {
+    "titulo": "Medíocres",
+    "tipo": "serie",
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 8.2,
+    "sinopse": "Enfrentando a decadência e a falta de humor, a protagonista se vê compelida a contratar uma jovem estrela da internet para lhe escrever novas piadas, mas as duas se odeiam à primeira vista. Entretanto, o desprezo de uma pela outra logo acaba se revelando o ingrediente ideal para uma boa parceria.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/73vn8TdBZDp5o4AztOGhQRYeGIR.jpg"
+  },
+  {
+    "titulo": "Frasier",
+    "tipo": "serie",
+    "genero": [
+      "comedia",
+      "familia"
+    ],
+    "classificacao": 12,
+    "nota": 8.2,
+    "sinopse": "Um psiquiatra que apresenta um programa de rádio, e transmite sagacidade e sabedoria aos ouvintes, tem dificuldades em lidar com seus próprios problemas: o pai, o irmão pretensioso, seus amigos e colegas de trabalho.",
+    "onde": "Paramount+",
+    "poster": "https://image.tmdb.org/t/p/w500/gYAb6GCVEFsU9hzMCG5rxaxoIv3.jpg"
+  },
+  {
+    "titulo": "O Regresso",
+    "tipo": "filme",
+    "genero": [
+      "aventura",
+      "drama",
+      "faroeste"
+    ],
+    "classificacao": 16,
+    "nota": 8.0,
+    "sinopse": "Durante uma expedição em uma selvagem região americana, o lendário explorador Hugh Glass é brutalmente atacado por um urso e deixado para morrer por membros de seu próprio grupo de caça. Em sua cruzada pela sobrevivência, Glass supera tribulações inimagináveis, bem como a traição de seu confidente John Fitzgerald. Guiado por pura determinação e pelo amor de sua família, Glass precisa superar um inverno rigoroso enquanto busca incansavelmente um motivo para seguir em frente e encontrar a redenção.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/x1jViuXsm5ZmrR6uFmxU6AVdXzs.jpg"
+  },
+  {
+    "titulo": "A Outra História Americana",
+    "tipo": "filme",
+    "genero": [
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 8.5,
+    "sinopse": "Derek busca vazão para suas agruras tornando-se líder de uma gangue de racistas. A violência o leva a um assassinato, e ele é condenado pelo crime. Três anos mais tarde, ele sai da prisão e tem que convencer seu irmão, que está prestes a assumir a liderança do grupo, a não trilhar o mesmo caminho.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/hgvKHv8d9bQEiQV5JE8nx0I2zhr.jpg"
+  },
+  {
+    "titulo": "Fullmetal Alchemist: Brotherhood",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "animacao",
+      "drama",
+      "ficcao cientifica",
+      "fantasia"
+    ],
+    "classificacao": 14,
+    "nota": 9.1,
+    "sinopse": "O descaso com as leis da alquimia tomou dois dos membros de Edward Elric e deixou a alma de Alphonse presa a uma armadura. Para recuperar o que perderam, os irmãos procuram a Pedra Filosofal. O exército corrupto, os homúnculos, alquimistas estrangeiros... Inimigos e aliados alterarão o curso dos irmãos Elric, mas nada conseguirá mudar seu propósito ou romper o elo entre os dois.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/vIkH7fUQf8Olo8Apq56FQLGDXOo.jpg"
+  },
+  {
+    "titulo": "A Faxineira",
+    "tipo": "serie",
+    "genero": [
+      "crime",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 7.0,
+    "sinopse": "Uma médica se muda para os Estados Unidos buscando um tratamento para seu filho doente. Porém, o sistema norte-americano falha com ela, obrigando-a a se esconder. Se recusando a perder e ser marginalizada, ela se torna faxineira para a máfia, jogando com suas próprias regras.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/9pmZnTKKF5B9kiaTFUrCITQ4BnM.jpg"
+  },
+  {
+    "titulo": "Fale Comigo",
+    "tipo": "filme",
+    "genero": [
+      "terror"
+    ],
+    "classificacao": 16,
+    "nota": 7.1,
+    "sinopse": "Quando um grupo de amigos descobre como conjurar espíritos usando uma antiga mão embalsamada, eles ficam viciados na nova emoção. Até que um deles vai longe demais e abre a porta para o mundo espiritual.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/7U3lC4YnHD8zpeoxbY6Hsj9jyeu.jpg"
+  },
+  {
+    "titulo": "O Incrível Mundo de Gumball",
+    "tipo": "serie",
+    "genero": [
+      "animacao",
+      "comedia",
+      "familia",
+      "ficcao cientifica",
+      "fantasia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 8.4,
+    "sinopse": "Gumball é um garoto de doze anos com uma quedinha por confusões e que tem um fantástico grupo de amigos estranhos. É O Incrível Mundo de Gumball!",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/2NGCRWnZpsIevwpjBLkoXfnqSgg.jpg"
+  },
+  {
+    "titulo": "The Expanse",
+    "tipo": "serie",
+    "genero": [
+      "drama",
+      "misterio",
+      "ficcao cientifica",
+      "fantasia"
+    ],
+    "classificacao": 16,
+    "nota": 8.5,
+    "sinopse": "Duzentos anos no futuro, um detetive interespacial, o capitão de uma nave e uma diplomata antiguerra cruzam seus caminhos após uma jovem desaparecer misteriosamente.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/5vQlVWkIMPhZ88OWchJsgwGEK9.jpg"
+  },
+  {
+    "titulo": "Upgrade: As Cores do Amor",
+    "tipo": "filme",
+    "genero": [
+      "comedia",
+      "romance"
+    ],
+    "classificacao": 14,
+    "nota": 6.1,
+    "sinopse": "Ana, aspirante a curadora de arte, é inesperadamente promovida para a primeira classe em um voo para uma viagem de trabalho de última hora para Londres. Ao se acomodar neste estilo de vida mais confortável na cabine da primeira classe, ela conhece o bonito e rico William e decide viver a fantasia um pouco mais do que deveria.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/rqfqLTNpueBtdtMO0QZ8XzQaDi1.jpg"
+  },
+  {
+    "titulo": "Anônimo",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "suspense"
+    ],
+    "classificacao": 18,
+    "nota": 7.4,
+    "sinopse": "Quando dois ladrões invadem sua casa no subúrbio uma noite, Hutch se recusa a defender a si mesmo ou a sua família, na esperança de evitar violência grave. Seu filho adolescente, Blake, está desapontado com ele e sua esposa, Becca, parece se afastar ainda mais.  Em consequência, o incidente acerta a raiva latente de Hutch, desencadeando instintos adormecidos e impulsionando-o em um caminho brutal que revelará segredos obscuros e habilidades letais para salvar sua família.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/qvW0h99en3sE8p1KQYZfO34VhZh.jpg"
+  },
+  {
+    "titulo": "O Conto da Aia",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "drama",
+      "ficcao cientifica",
+      "fantasia"
+    ],
+    "classificacao": 16,
+    "nota": 8.3,
+    "sinopse": "Situado em um futuro distópico, uma mulher é forçada a viver como uma concubina sob uma ditadura teocrática fundamentalista. Uma adaptação para a TV do romance de Margaret Atwood.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/eJJvzADsstZAz4tmE5qa3jjPUkF.jpg"
+  },
+  {
+    "titulo": "Dungeons & Dragons: Honra Entre Rebeldes",
+    "tipo": "filme",
+    "genero": [
+      "aventura",
+      "comedia",
+      "fantasia"
+    ],
+    "classificacao": 12,
+    "nota": 7.2,
+    "sinopse": "Um ladrão charmoso e um grupo de aventureiros improváveis empreendem um assalto épico para recuperar uma relíquia perdida, mas as coisas dão perigosamente errado quando eles entram em conflito com as pessoas erradas.",
+    "onde": "Paramount+",
+    "poster": "https://image.tmdb.org/t/p/w500/tt23D7Mkg0dHhsWn3aN0hbslaFw.jpg"
+  },
+  {
+    "titulo": "Piratas do Caribe: No Fim do Mundo",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "fantasia"
+    ],
+    "classificacao": 12,
+    "nota": 7.2,
+    "sinopse": "Will Turner e Elizabeth Swann unem forças com o Capitão Barbossa para libertarem Jack Sparrow da prisão de Davy Jones. Enquanto isso, a tripulação do barco fantasma O Holandês Voador causa estragos nos Sete Mares. Os amigos devem navegar através de águas perigosas para enfrentarem o pirata chinês São Feng e, finalmente, eles devem escolher em que lado ficar na batalha, pois a vida do pirata está em jogo.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/j15lZasREutscon6e61LSSNJoN7.jpg"
+  },
+  {
+    "titulo": "O Rei do Bairro",
+    "tipo": "serie",
+    "genero": [
+      "comedia"
+    ],
+    "classificacao": 14,
+    "nota": 7.4,
+    "sinopse": "Doug Heffernan trabalha duro o dia inteiro entregando encomendas até voltar para casa e encontrar sua amada esposa Carrie. No entanto, ele também encontra seu sogro maluco, Arthur, que vive com a filha e o genro.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/vfayWy5TIQqjqkpIYzQTD1U2huG.jpg"
+  },
+  {
+    "titulo": "Banshee",
+    "tipo": "serie",
+    "genero": [
+      "crime",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 8.4,
+    "sinopse": "Um ex-detento assume a identidade de Lucas Hood, o novo delegado de Banshee. Lá vive Carrie, ex-parceira no amor e no crime, que hoje leva uma vida pacata ao lado do marido, o promotor local. A marca da registrada da cidade é a corrupção, graças ao líder amish Kai Proctor. Ele, porém, não é o único problema para Lucas, já que um mafioso de Nova York quer vingança.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/5nXFiz8Rn8eezVjSTZBd7HmnF1G.jpg"
+  },
+  {
+    "titulo": "Meu Amigo Totoro",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "familia",
+      "fantasia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 0.0,
+    "sinopse": "Duas irmãs se mudam para o campo com o pai para ficarem mais próximas da mãe hospitalizada e descobrem que as árvores ao redor são habitadas por Totoros, espíritos mágicos da floresta. Quando a mais nova foge de casa, a irmã mais velha busca a ajuda dos espíritos para encontrá-la.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/23KKTxDg6rxZVc66bloQQdPSr29.jpg"
+  },
+  {
+    "titulo": "Pearl Harbor",
+    "tipo": "filme",
+    "genero": [
+      "drama",
+      "guerra",
+      "historia"
+    ],
+    "classificacao": 12,
+    "nota": 6.3,
+    "sinopse": "Dois pilotos e amigos de longa data se apaixonam pela mesma mulher, mas precisam deixar suas diferenças de lado quando os japoneses atacam a base naval de Pearl Harbor em 7 de dezembro de 1941.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/y8A0Cvp8WQmZ3bjbnsL53lY0dsC.jpg"
+  },
+  {
+    "titulo": "H2O: Meninas Sereias",
+    "tipo": "serie",
+    "genero": [
+      "drama",
+      "familia",
+      "ficcao cientifica",
+      "fantasia"
+    ],
+    "classificacao": 10,
+    "nota": 7.3,
+    "sinopse": "Três amigas de colégio se transformam em sereias sempre que tocam na água e embarcam em diversas aventuras no fundo do mar com a nova identidade.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/4zB0ltF3qmChFy5RzJwOaZTfAB3.jpg"
+  },
+  {
+    "titulo": "O Exterminador do Futuro: Destino Sombrio",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "ficcao cientifica",
+      "suspense"
+    ],
+    "classificacao": 14,
+    "nota": 6.2,
+    "sinopse": "Décadas após Sarah Connor impedir o Dia do Julgamento, um novo Exterminador letal é enviado para eliminar o futuro líder da resistência. Em uma luta para salvar a humanidade, Sarah Connor, endurecida pela batalha, se une a um aliado inesperado e a um super soldado aprimorado com a missão de parar o Exterminador mais mortal até agora.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/3HsG5V6ZpKYgfwbFqXEYONbqtTt.jpg"
+  },
+  {
+    "titulo": "Cowboy Bebop",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "animacao",
+      "faroeste",
+      "ficcao cientifica"
+    ],
+    "classificacao": 16,
+    "nota": 8.9,
+    "sinopse": "Spike Spiegel, um rapaz com o passado misterioso e Jet Black, um  ex-policial, se unem para ir atrás de criminosos que possuem a cabeça a  prêmio, dentro da nave “Bebop”. Ao longo do caminho eles se encontram  com personagens nada comuns, um cão muito raro que possui grande  inteligência, Ein, a gananciosa e fatal Feye Valentine e muitos outros.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/hbLDwYri1pyiEIMpICgftu7s8NE.jpg"
+  },
+  {
+    "titulo": "A Família Mitchell e a Revolta das Máquinas",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "aventura",
+      "comedia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 7.6,
+    "sinopse": "Katie Mitchell é aceita na faculdade de cinema dos seus sonhos e seu pai decide aproveitar para realizar uma viagem em família para levá-la à universidade. Porém, seus planos são interrompidos por uma revolução robótica e agora os Mitchells terão que unir forças em família para trabalhar juntos para salvar o mundo.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/k1p10mLm1uM1jqR7RlzB0SalD00.jpg"
+  },
+  {
+    "titulo": "Brilhante Victória",
+    "tipo": "serie",
+    "genero": [
+      "comedia",
+      "infantil"
+    ],
+    "classificacao": 10,
+    "nota": 7.0,
+    "sinopse": "Tori Vega é uma adolescente de 16 anos que estudava numa escola normal. Sua irmã, Trina Vega, estuda em uma escola para pessoas talentosas, a Hollywood Arts. Um dia, ela iria fazer uma apresentação musical na escola, porém, devido a um incidente, Tori acaba a substituindo e a mesma descobre que tem talento. Tori acaba entrando na Hollywood Arts e lá ela conhece André, Robbie, Jade, Cat, Beck, e Rex. Juntos eles vão viver historias, aventuras e situações engraçadas.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/eyHYGC3jwOj8tkGeC2x4MHmL8gk.jpg"
+  },
+  {
+    "titulo": "MINDHUNTER",
+    "tipo": "serie",
+    "genero": [
+      "crime",
+      "drama"
+    ],
+    "classificacao": 18,
+    "nota": 8.6,
+    "sinopse": "Um agente da Unidade de Crimes em Série do FBI desenvolve avançadas técnicas de psicologia criminal ao perseguir notórios assassinos e estupradores.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg"
+  },
+  {
+    "titulo": "Jessie",
+    "tipo": "serie",
+    "genero": [
+      "comedia",
+      "drama",
+      "familia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 6.1,
+    "sinopse": "As aventuras de uma garota do Texas que se muda para Nova York e se torna babá das crianças ricas e precoces da família Ross.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/tspQe0FuiaUj0U1R1norNbiYTe4.jpg"
+  },
+  {
+    "titulo": "Jujutsu Kaisen 0: O Filme",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "animacao",
+      "fantasia"
+    ],
+    "classificacao": 14,
+    "nota": 7.8,
+    "sinopse": "Quando Yuta Okkotsu era pequeno, sua amiga Rika Orimoto morreu num acidente de trânsito, bem na sua frente. Ela se tornou uma aparição, assombrando o jovem e atormentando a sua vida, até o dia em que Satoru Gojo, um feiticeiro Jujutsu, o convida para se matricular no Colégio Jujutsu. Junto com seus novos colegas de sala: Maki Zen'in, Toge Inumaki e Panda, Yuta encontra a coragem para perseverar. Enquanto isso, Suguru Geto, um vil manipulador de maldições que foi expulso do colégio por massacrar inocentes, põe em prática seu plano: lançar mil maldições em Shinjuku e em Kyoto e exterminar todos os não-feiticeiros, criando um paraíso para feiticeiros Jujutsu. Será que Yuta será capaz de impedir Geto? E o que acontecerá quando ele se livrar da maldição da Rika?",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/2ndvx03fmREMxEgaZ1vWt756TOQ.jpg"
+  },
+  {
+    "titulo": "O Rei Leão II: O Reino de Simba",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "aventura",
+      "drama",
+      "familia",
+      "romance",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 6.4,
+    "sinopse": "Kiara é a filhote de Simba e Nala. A pequena leoa tem um espírito livre e aventureiro. Um dia, ela resolve passear para além dos limites do território de seu pai e encontra os descendentes do maléfico Scar. Um dos descendentes do algoz de Mufasa é Kovu, que se torna um grande amigo de Kiara. Entretanto, o amor entre os dois leõezinhos irá reacender uma rivalidade histórica.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/kYrl3Sy7moKcSqvA7qXsucGeiXo.jpg"
+  },
+  {
+    "titulo": "A Saga Crepúsculo: Lua Nova",
+    "tipo": "filme",
+    "genero": [
+      "aventura",
+      "drama",
+      "fantasia",
+      "romance"
+    ],
+    "classificacao": 12,
+    "nota": 4.8,
+    "sinopse": "Logo após Bella Swan completar 18 anos, Edward Cullen decide deixá-la para trás em um esforço para protegê-la após um ataque que quase tirou sua vida. Com uma tristeza inconsolável, Bella descobre que ela pode chamar a imagem de Edward sempre que se coloca em perigo e seu desejo em estar com ele a leva a assumir riscos cada vez maiores. Com a ajuda de Jacob Black, seu amigo de infância e um membro da misteriosa tripo Quileute, o coração de Bella vai gradualmente descongelando, enquanto Jacob esconde seu próprio segredo sobrenatural. Ao receber a notícia de que seu amado decide acabar com a própria vida, Bella parte para impedi-lo, sem imaginar que um perigo ainda maior a aguarda.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/z39dbVwa1iIihdUDHGiRy4tc2Ov.jpg"
+  },
+  {
+    "titulo": "Sete Homens e Um Destino",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "faroeste"
+    ],
+    "classificacao": 14,
+    "nota": 6.9,
+    "sinopse": "Os habitantes de um pequeno vilarejo sofrem com os constantes ataques de um bando de pistoleiros. Revoltada com os saques, Emma Cullen deseja justiça e pede auxílio ao pistoleiro Sam Chisolm, que reúne um grupo de especialistas para contra-atacar os bandidos.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/3eK3819rrjVeVTmACUHa7SQIA1d.jpg"
+  },
+  {
+    "titulo": "13 Reasons Why",
+    "tipo": "serie",
+    "genero": [
+      "drama",
+      "misterio"
+    ],
+    "classificacao": 18,
+    "nota": 7.4,
+    "sinopse": "Clay Jensen é um estudante que se vê envolvido em uma série de mistérios provocados pelo trágico suicídio de uma amiga.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/fJh0mEp6HYVG8yje22LpUKoVYX1.jpg"
+  },
+  {
+    "titulo": "Hannah Montana",
+    "tipo": "serie",
+    "genero": [
+      "comedia",
+      "familia"
+    ],
+    "classificacao": 0,
+    "nota": 5.5,
+    "sinopse": "Uma comédia sobre a típica adolescente Miley Stewart, que vive com o irmão mais velho e o pai, viúvo e compositor. Sem que seus amigos e colegas da turma saibam, Miley tem uma vida dupla – ela é Hannah Montana, a estrela pop mundialmente famosa. Combinando uma persona de palco com figurinos criativos, Miley descobre que pode ter o melhor dos dois mundos – a fama e fortuna de uma cantora conhecida e a diversão do Ensino Médio com seus melhores amigos, Lilly e Oliver, aos quais confiou o segredo de sua identidade.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/sRqLl0SHA4diTL8zvUTgBw6DQeM.jpg"
+  },
+  {
+    "titulo": "Lego Batman: O Filme",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "animacao",
+      "comedia",
+      "familia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 7.3,
+    "sinopse": "No spin-off de Uma Aventura Lego, Batman (Will Arnett) descobre que adotou acidentalmente um garoto órfão. Ele se torna ninguém menos que seu ajudante Robin (Michael Cera). A dupla formada pelo arrogante Homem-Morcego e o seu empolgado ajudante deve combater o crime e prender o Coringa (Zach Galifianakis).",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/jUZAAKHfHwZj8bEvghaY9MrGCRG.jpg"
+  },
+  {
+    "titulo": "Prenda-Me se For Capaz",
+    "tipo": "filme",
+    "genero": [
+      "crime",
+      "drama"
+    ],
+    "classificacao": 12,
+    "nota": 8.1,
+    "sinopse": "Frank Abagnale Jr. já foi médico, advogado e co-piloto, tudo isso com apenas 18 anos. Mestre na arte do disfarce, ele aproveita suas habilidades para viver a vida como quer e praticar golpes milionários, que fazem com que se torne o ladrão de banco mais bem-sucedido da história dos Estados Unidos com apenas 17 anos. Mas em seu encalço está o agente do FBI Carl Hanratty, que usa todos os meios que tem ao seu dispor para encontrá-lo e capturá-lo.",
+    "onde": "Paramount+",
+    "poster": "https://image.tmdb.org/t/p/w500/pSaqcj3pwTKt34cyn6NrBE7V4eH.jpg"
+  },
+  {
+    "titulo": "Pablo Escobar: O Patrão do Mal",
+    "tipo": "serie",
+    "genero": [
+      "crime",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 8.4,
+    "sinopse": "Acompanhe a vida do famoso Pablo Escobar, que ascendeu de ladrão a chefe de um grande império do tráfico, nesta série eletrizante.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/mTEmvDBWGpsnPK34SzGwEDM5WRP.jpg"
+  },
+  {
+    "titulo": "Looney Tunes Cartoons",
+    "tipo": "serie",
+    "genero": [
+      "animacao",
+      "comedia",
+      "familia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 8.0,
+    "sinopse": "Estrelando os personagens icônicos e amados do Looney Tunes – Pernalonga, Patolino, Gaguinho e outros personagens famosos – essas figuras clássicas apresentam histórias simples, engraçadas e visualmente vibrantes.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/awkCt4P9g9TBU6cWpvfoxlevszM.jpg"
+  },
+  {
+    "titulo": "As Visões da Raven",
+    "tipo": "serie",
+    "genero": [
+      "comedia",
+      "ficcao cientifica"
+    ],
+    "classificacao": 0,
+    "nota": 6.7,
+    "sinopse": "Raven Baxter é uma típica adolescente, mas com poderes psíquicos! Ela adora prever o futuro e com a ajuda de seus amigos, Eddie e Chelsea, elabora planos para alterar o que vai acontecer. Juntos eles criam mais problemas do que os resolvem de uma maneira muito engraçada!",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/5AYuv6cSBC0Iqb1Ugkfp3z3Pjyw.jpg"
+  },
+  {
+    "titulo": "Seven - Os Sete Crimes Capitais",
+    "tipo": "filme",
+    "genero": [
+      "crime",
+      "misterio",
+      "suspense"
+    ],
+    "classificacao": 14,
+    "nota": 6.1,
+    "sinopse": "Quando, a ponto de se aposentar, o detetive William Somerset aborda o último caso com a ajuda do recém-transferido David Mills, eles descobrem uma série de assassinatos. Logo percebem que estão lidando com um assassino que tem como alvo pessoas que ele acredita representar os sete pecados capitais.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/dZXYPSEaXCeigR2GEuZoukNmLTf.jpg"
+  },
+  {
+    "titulo": "Madagascar 3: Os Procurados",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "aventura",
+      "comedia",
+      "familia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 6.8,
+    "sinopse": "Os amigos Alex, Marty, Melman, Gloria, rei Julien e os pinguins deixam o continente africano rumo à Europa. Eles vão parar em Mônaco, onde passam a ser perseguidos por uma obcecada agente de controle animal. Em plena fuga, o grupo encontra abrigo em um circo em crise. Logo eles passam a ajudá-lo, iniciando um processo de revitalização que poderá levá-los a uma turnê nos Estados Unidos e, consequentemente, de volta para casa.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/bPRvFj9MGeLeqidaTniUf8yQ0PW.jpg"
+  },
+  {
+    "titulo": "Ratatouille",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "comedia",
+      "familia",
+      "fantasia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 8.1,
+    "sinopse": "Remy, morador de Paris, aprecia boa comida e tem um paladar bastante sofisticado. Ele adoraria se tornar um chef para poder criar e desfrutar de obras-primas culinárias para o deleite de seu coração. O único problema é que Remy é um rato. Quando acaba no esgoto debaixo de um dos melhores restaurantes de Paris, o roedor gourmet encontra-se na posição ideal para realizar o seu sonho.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/41Co0TRUJNyvjr2vHBEcAKAEFpX.jpg"
+  },
+  {
+    "titulo": "O Espetacular Homem-Aranha",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "ficcao cientifica"
+    ],
+    "classificacao": 10,
+    "nota": 6.9,
+    "sinopse": "Peter Parker está tentando saber mais sobre sua origem. Ele encontra uma pasta que pertenceu ao seu pai e quer descobrir por que seus pais desapareceram. Sua busca o leva a Oscorp e ao dr. Curt Connors, que tem como alterego o letal Lagarto.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/gxSsFBCFuDhVQMCuIDoZcmHOqlY.jpg"
+  },
+  {
+    "titulo": "Berlim",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "crime",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 7.0,
+    "sinopse": "Berlim se encontra com um grupo em Paris para planejar uma de suas missões mais ambiciosas: roubar 44 milhões de euros em joias em uma noite.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/aOv5c4PJmQn3sBdrGVThVIyxQpH.jpg"
+  },
+  {
+    "titulo": "Gladiador",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "aventura",
+      "drama"
+    ],
+    "classificacao": 14,
+    "nota": 8.5,
+    "sinopse": "Nos dias finais do reinado de Marcus Aurelius, o imperador desperta a ira de seu filho Commodus ao tornar pública sua predileção em deixar o trono para Maximus, o comandante do exército romano. Sedento pelo poder, Commodus mata seu pai, assume a coroa e ordena a morte de Maximus, que consegue fugir antes de ser pego e passa a se esconder sob a identidade de um escravo e gladiador do Império Romano.",
+    "onde": "Prime Video",
+    "poster": "https://image.tmdb.org/t/p/w500/4DUClyGA6OqjXv6yC0Imf6THGfp.jpg"
+  },
+  {
+    "titulo": "Logan",
+    "tipo": "filme",
+    "genero": [
+      "acao",
+      "drama",
+      "ficcao cientifica"
+    ],
+    "classificacao": 16,
+    "nota": 8.1,
+    "sinopse": "Em um futuro próximo, um cansado Logan cuida do doente Professor Xavier em um esconderijo na fronteira mexicana. Mas as tentativas de Logan de se esconder do mundo e de seu legado são interrompidas com a chegada de uma jovem mutante, perseguida por forças sombrias.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/f0CtZbae9cXj8bkWdCHzUHx5lsR.jpg"
+  },
+  {
+    "titulo": "Meu Malvado Favorito",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "comedia",
+      "familia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 7.6,
+    "sinopse": "Um homem que adora todas as coisas diabólicas, o supervilão Gru traça um plano para roubar a lua. Rodeado de um exército de pequenos ajudantes e seu arsenal de armas e máquinas de guerra, Gru se prepara para destruir quem atravessar seu caminho. Mas ele não esperava pelo seu maior desafio: três adoráveis órfãs que querem ter Gru como pai.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/rYZzutMXxvirK9gK01iLo3Blaj3.jpg"
+  },
+  {
+    "titulo": "Procurando Nemo",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "aventura",
+      "familia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 8.2,
+    "sinopse": "Nemo, um jovem peixe-palhaço aventureiro, é inesperadamente levado de sua casa na Grande Barreira de Corais para o aquário do consultório de um dentista. Cabe ao seu preocupado pai Marlin e à simpática mas esquecida peixe Dory trazer Nemo para casa - encontrando tubarões vegetarianos, tartarugas surfistas, medusas hipnóticas, gaivotas esfomeadas e muito mais pelo caminho.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/djbivExXSZb0sTO8uYaaQC5vMRM.jpg"
+  },
+  {
+    "titulo": "Invocação do Mal",
+    "tipo": "filme",
+    "genero": [
+      "terror",
+      "suspense"
+    ],
+    "classificacao": 14,
+    "nota": 7.5,
+    "sinopse": "Harrisville, Rhode Island, Estados Unidos, 1968. Os investigadores paranormais Ed e Lorraine Warren trabalham para ajudar uma família aterrorizada por uma presença sombria em sua fazenda. Forçados a confrontar uma entidade poderosa, os Warrens se vêem presos no caso mais aterrorizante de suas vidas. Baseado numa história real.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/1NxHKZW5DPbUFtbF3MxbdSyxRqU.jpg"
+  },
+  {
+    "titulo": "Cavaleiro da Lua",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "misterio",
+      "ficcao cientifica"
+    ],
+    "classificacao": 14,
+    "nota": 7.3,
+    "sinopse": "A série acompanha Steven Grant, um gentil e educado funcionário de uma loja de souvenir, que é atormentado com apagões e memórias de outra vida. Steven descobre que tem transtorno dissociativo de identidade e divide o corpo com o mercenário Marc Spector. À medida que os inimigos de Steven/Marc se voltam para eles, ambos devem navegar em suas complexas identidades enquanto mergulham em um mistério mortal entre os poderosos deuses do Egito.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/tkc7AVyUoG9VEeDvukN0TVqa24C.jpg"
+  },
+  {
+    "titulo": "Uma Noite Alucinante: A Morte do Demônio",
+    "tipo": "filme",
+    "genero": [
+      "terror"
+    ],
+    "classificacao": 18,
+    "nota": 7.3,
+    "sinopse": "Cinco estudantes da Universidade de Michigan decidem passar um final de semana em uma casa isolada. Lá eles encontram o livro dos mortos, um documento que data da época da Babilônia e que está relacionado ao livro dos mortos egípcio. Enquanto vasculham a casa os amigos gravam em fita alguns encantamentos demoníacos, escritos no livro. A partir de então eles são possuídos por espíritos, um a um. O primeiro alvo é Cheryl, brutalmente estuprada pelas forças do mal. Ash, seu irmão, resolve levá-la a uma cidade próxima, mas descobre que a única ponte que leva ao local está destruída. Logo a transformação de Cheryl em demônio é concluída, resultando em seu ataque aos amigos.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/dCdXagFYR7WwaHuVmZgzw4F0KpP.jpg"
+  },
+  {
+    "titulo": "Zootopia: Essa Cidade é o Bicho",
+    "tipo": "filme",
+    "genero": [
+      "animacao",
+      "aventura",
+      "comedia",
+      "familia",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 8.0,
+    "sinopse": "Em uma cidade de animais antropomórficos, uma raposa fugitiva vigarista e um coelho policial recruta precisam trabalhar juntos para desvendar uma conspiração.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/27Ko4be7CeFmq2hVN7lp7TWG1sd.jpg"
+  },
+  {
+    "titulo": "Bones",
+    "tipo": "serie",
+    "genero": [
+      "crime",
+      "drama"
+    ],
+    "classificacao": 14,
+    "nota": 7.8,
+    "sinopse": "A Dra. Temperance Brennan é uma antropóloga forense altamente qualificada que trabalha no Instituto Jeffersonian e escreve romances. Ela possui um talento impressionante para enxergar pistas em ossos de vítimas, e por isso a polícia a chama para ajudar em investigações quando os restos mortais estão tão decompostos, queimados ou destruídos que métodos de identificação padrão são inúteis. Temperance frequentemente trabalha em parceria com o agente especial Seeley Booth, ex-atirador de elite do exército que não confia na ciência ou em cientistas para resolver crimes, mas desenvolveu um respeito pessoal e profissional por Temperance.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/rElaRnNez2dXBCMv1THHdVcroFY.jpg"
+  },
+  {
+    "titulo": "Patrulha Canina",
+    "tipo": "serie",
+    "genero": [
+      "animacao",
+      "infantil"
+    ],
+    "classificacao": 0,
+    "nota": 6.1,
+    "sinopse": "Seis cachorrinhos heroicos liderados por um garoto de 10 anos realizam arriscadas missões de resgate sempre com bom humor, habilidades especiais e veículos muito legais!",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/pQ0bBHR9Q3wurjNMjnqal0gJaYo.jpg"
+  },
+  {
+    "titulo": "Prison Break: Em Busca da Verdade",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "crime",
+      "drama"
+    ],
+    "classificacao": 16,
+    "nota": 8.3,
+    "sinopse": "Lincoln Burrows é condenado injustamente à pena de morte. Só lhe resta confiar no irmão Michael Scofield, que executa um plano de fuga e se vê no meio de uma perigosa conspiração.",
+    "onde": "Disney +",
+    "poster": "https://image.tmdb.org/t/p/w500/rK3Vwe0Wm0VXxf4IJCdlHeEREYx.jpg"
+  },
+  {
+    "titulo": "FBI",
+    "tipo": "serie",
+    "genero": [
+      "acao",
+      "crime",
+      "drama"
+    ],
+    "classificacao": 14,
+    "nota": 7.1,
+    "sinopse": "A série acompanha os bastidores das operações do FBI em NY, onde os agentes Maggie Bell, Omar Adom e equipe buscam manter a cidade e o país a salvo.",
+    "onde": "Paramount+",
+    "poster": "https://image.tmdb.org/t/p/w500/zfKS4WL0OZ9udpNoSYZw91VB3aH.jpg"
+  },
+  {
+    "titulo": "It: A Coisa",
+    "tipo": "filme",
+    "genero": [
+      "drama",
+      "terror",
+      "suspense"
+    ],
+    "classificacao": 16,
+    "nota": 7.3,
+    "sinopse": "Na cidade de Derry, no Maine, sete jovens se juntam para combater uma criatura sobrenatural que está assombrando a sua cidade por séculos. Chamado de Pennywise – O Palhaço Dançarino, a Coisa é um monstro de força absoluta que toma a forma dos medos mais horrorosos das pessoas. Ameaçados por seus piores pesadelos, a única maneira dos jovens amigos sobreviverem à Coisa é se continuarem juntos.",
+    "onde": "HBO Max",
+    "poster": "https://image.tmdb.org/t/p/w500/uYxz0lIiNgErrPhQbSjUdwYxtFc.jpg"
+  },
+  {
+    "titulo": "A Saga Crepúsculo: Eclipse",
+    "tipo": "filme",
+    "genero": [
+      "aventura",
+      "drama",
+      "fantasia",
+      "romance"
+    ],
+    "classificacao": 12,
+    "nota": 5.1,
+    "sinopse": "Bella mais uma vez encontra-se rodeada pelo perigo, já que Seattle está sendo devastada por uma sequência de misteriosos assassinatos e um malicioso vampiro continua em sua busca por vingança. Em meio a tudo isso, ela é forçada a escolher entre Edward e Jacob, sabendo que sua decisão tem o poder de incendiar a luta entre os vampiros e os lobisomens. Prestes a concluir a graduação, Bella tem que enfrentar a decisão mais importante da sua vida.",
+    "onde": "Netflix",
+    "poster": "https://image.tmdb.org/t/p/w500/a8qPjwfKA1MwjEoVPhTf1ptVzdE.jpg"
+  },
+  {
+    "titulo": "Todo Mundo em Pânico 2",
+    "tipo": "filme",
+    "genero": [
+      "comedia"
+    ],
+    "classificacao": 16,
+    "nota": 5.4,
+    "sinopse": "Brincando com o terror, o professor Oldman e Dwight seu assistente, preparam um final de semana hilariante e super especial. Um experiência sobre exorcismo, onde Cindy e \"aquele\" grupo de jovens malucos e assustados deverão ficar sem dormir. A incrível arapuca terá lugar na \"Casa do Inferno\", um casarão mal-assombrado afastado da cidade, e onde não falta nem o repulsivo mordono sempre presente nas melhores histórias de terror. Como alvos desta comédia escrachada, encontramos \"O Exorcista\", \"Poltergeist\", \"A Casa da Colina\", \"Revelação\" e até mesmo \"As Panteras\" e \"Missão Impossível 2\". Agora muito mais engraçado. Imperdível!",
+    "onde": "Paramount+",
+    "poster": "https://image.tmdb.org/t/p/w500/549UoU38uoikbqgXG09rkkfIEWf.jpg"
   }
 ]
