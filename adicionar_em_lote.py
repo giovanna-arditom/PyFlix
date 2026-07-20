@@ -8,6 +8,7 @@ from buscar_posteres import (
     IMAGE_BASE_URL,
     buscar_pagina_descoberta,
     mapear_generos,
+    buscar_ids_generos,
     buscar_classificacao_tmdb,
     buscar_plataforma_tmdb,
     buscar_nota_imdb,
@@ -22,6 +23,16 @@ QUANTIDADE_DESEJADA = 20
 # Ex: 2 = so traz titulos lancados ha 2 anos ou mais (evita coisa ainda em cartaz no cinema).
 # Mude esse numero pra ajustar: 1 = mais recente, 5 = mais antigo.
 IDADE_MINIMA_LANCAMENTO_ANOS = 2
+
+# Quais generos buscar: agora e perguntado no terminal toda vez que o script
+# roda (funcao perguntar_generos_desejados(), la embaixo) - basta apertar Enter
+# pra buscar qualquer genero, sem filtro, ou digitar o(s) genero(s) desejado(s).
+#
+# Alguns nomes validos (filme e/ou serie): acao, aventura, animacao, comedia,
+# crime, documentario, drama, familia, fantasia, historia, terror, misterio,
+# musica, romance, ficcao cientifica, cinema tv, thriller, guerra, faroeste,
+# kids, novela, reality, talk. Pode digitar com ou sem acento/maiusculas -
+# o script normaliza sozinho.
 
 # Faixa de paginas do /discover que o script sorteia a cada execucao, em vez de
 # sempre andar 1, 2, 3... (por isso vinha sempre os mesmos titulos antes).
@@ -66,6 +77,21 @@ def ja_existe_no_catalogo(titulo, titulos_existentes):
     """Verifica se o titulo (ou algo muito parecido) ja esta no catalogo,
     para nao duplicar entradas quando o script roda de novo."""
     return titulo.strip().lower() in titulos_existentes
+
+
+def perguntar_generos_desejados():
+    """Pergunta no terminal se a pessoa quer filtrar por genero especifico.
+    Enter em branco = sem filtro (qualquer genero, comportamento antigo).
+    Aceita um ou varios generos separados por virgula (ex: 'documentario, drama')."""
+    resposta = input(
+        'Buscar algum gênero específico? (Enter para qualquer gênero, '
+        'ou digite um ou mais separados por vírgula, ex: documentario, drama): '
+    ).strip()
+
+    if not resposta:
+        return []
+
+    return [genero.strip() for genero in resposta.split(',') if genero.strip()]
 
 
 def gerar_ordem_paginas():
@@ -141,9 +167,20 @@ def main():
 
     data_limite = calcular_data_limite()
 
+    generos_desejados = perguntar_generos_desejados()
+    generos_ids_filme = buscar_ids_generos(generos_desejados, 'filme')
+    generos_ids_serie = buscar_ids_generos(generos_desejados, 'serie')
+
+    if generos_desejados and not generos_ids_filme and not generos_ids_serie:
+        print(f'⚠️  Nenhum gênero conhecido bateu com "{", ".join(generos_desejados)}". '
+              'Buscando sem filtro de gênero.\n')
+        generos_desejados = []
+
     print('=== Adição automática ao catálogo do PyFlix ===')
     print(f'📄 Arquivo usado: {os.path.abspath(CAMINHO_CATALOGO)}')
     print(f'📄 Itens no catálogo antes de rodar: {len(catalogo)}')
+    if generos_desejados:
+        print(f'🎯 Filtrando por gênero(s): {", ".join(generos_desejados)}')
     print(f'Buscando até {QUANTIDADE_DESEJADA} título(s) novo(s), lançados até {data_limite}...\n')
 
     pendencias = {}
@@ -163,8 +200,8 @@ def main():
         pagina_filme = paginas_filme.pop()
         pagina_serie = paginas_serie.pop()
 
-        resultados = buscar_pagina_descoberta('filme', pagina_filme, data_limite)
-        resultados += buscar_pagina_descoberta('serie', pagina_serie, data_limite)
+        resultados = buscar_pagina_descoberta('filme', pagina_filme, data_limite, generos_ids_filme)
+        resultados += buscar_pagina_descoberta('serie', pagina_serie, data_limite, generos_ids_serie)
         random.shuffle(resultados)
 
         if not resultados:

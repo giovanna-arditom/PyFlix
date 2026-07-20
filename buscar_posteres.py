@@ -133,6 +133,28 @@ def mapear_generos(genre_ids, tipo):
     return sorted(generos)
 
 
+def buscar_ids_generos(nomes_desejados, tipo):
+    """Caminho inverso de mapear_generos: recebe uma lista de nomes de genero no
+    padrao do catalogo (ex: ['documentario'] ou ['acao', 'aventura']) e devolve os
+    ids de genero da TMDB correspondentes, pra usar no filtro 'with_genres' do /discover.
+
+    Se um genero composto da TMDB (ex: 'Ação e aventura') tiver QUALQUER uma das
+    partes batendo com o que foi pedido, o id dele entra - assim pedir 'acao'
+    tambem traz titulos classificados como 'Ação e aventura' na TMDB."""
+    if not nomes_desejados:
+        return []
+
+    normalizados_desejados = {_normalizar_texto(n) for n in nomes_desejados}
+    mapa = buscar_mapa_generos(tipo)
+
+    ids = []
+    for gid, nome in mapa.items():
+        partes = {_normalizar_texto(p) for p in nome.split(' e ')}
+        if partes & normalizados_desejados:
+            ids.append(gid)
+    return ids
+
+
 def buscar_classificacao_tmdb(tmdb_id, tipo):
     """Busca a classificacao etaria oficial brasileira (ANCINE) na TMDB.
     Retorna um int (0, 10, 12, 14, 16 ou 18) ou None se nao encontrar/nao reconhecer."""
@@ -190,10 +212,14 @@ def buscar_plataforma_tmdb(tmdb_id, tipo):
     return None
 
 
-def buscar_pagina_descoberta(tipo, pagina, data_limite):
+def buscar_pagina_descoberta(tipo, pagina, data_limite, genero_ids=None):
     """Busca uma pagina de titulos populares de um tipo (filme ou serie), usando /discover,
     excluindo qualquer coisa lancada depois de 'data_limite' (formato 'AAAA-MM-DD').
     Isso evita trazer lancamentos recentes/ainda em cartaz no cinema.
+
+    Se 'genero_ids' for passado (lista de ids da TMDB), so traz titulos de algum
+    desses generos (logica OU - basta bater com um deles). Use buscar_ids_generos()
+    pra converter nomes de genero (ex: 'documentario') nesses ids.
 
     Tambem exige um minimo de votos e de nota media na TMDB (VOTE_COUNT_MINIMO e
     VOTE_AVERAGE_MINIMO), pra nao trazer titulo desconhecido/muito de nicho."""
@@ -210,6 +236,9 @@ def buscar_pagina_descoberta(tipo, pagina, data_limite):
         'vote_average.gte': VOTE_AVERAGE_MINIMO,
         f'{campo_data}.lte': data_limite,
     }
+    if genero_ids:
+        # '|' = OU (qualquer um desses generos); ',' seria E (teria que ter todos ao mesmo tempo)
+        params['with_genres'] = '|'.join(str(gid) for gid in genero_ids)
 
     resposta = requests.get(url, params=params)
     dados = resposta.json()
