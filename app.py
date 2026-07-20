@@ -23,6 +23,22 @@ NOMES_GENERO = {
     'romance': 'Romance',
     'sitcom': 'Sitcom',
     'suspense': 'Suspense',
+    'guerra e politica': 'Guerra e Política',
+    'familia': 'Família',
+    'historia': 'História',
+    'misterio': 'Mistério',
+    'terror': 'Terror',
+    'reality show': 'Reality Show',
+    'documentario': 'Documentário',
+    'infantil': 'Infantil',
+    'aventura': 'Aventura',
+    'crime': 'Crime',
+    'faroeste': 'Faroeste',
+    'musical': 'Musical', 
+    'thriller': 'Suspense', 
+    'sci-fi & fantasy': 'Ficção Científica',
+    'war & politics': 'Guerra e Política',
+    'action & adventure': 'Ação'
 }
 
 def carregar_catalogo():

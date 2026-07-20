@@ -1798,7 +1798,7 @@
     "tipo": "serie",
     "genero": [
       "comedia",
-      "Guerra e política"
+      "guerra e politica"
     ],
     "classificacao": 12,
     "nota": 8.4,
@@ -1813,7 +1813,7 @@
       "animacao",
       "comedia",
       "familia",
-      "musica",
+      "musical",
       "infantil"
     ],
     "classificacao": 0,
@@ -1969,7 +1969,7 @@
     "titulo": "Ben 10: Omniverse",
     "tipo": "serie",
     "genero": [
-      "action & adventure",
+      "acao",
       "animacao",
       "infantil",
       "ficcao cientifica",
@@ -2893,7 +2893,7 @@
     "tipo": "filme",
     "genero": [
       "drama",
-      "guerra",
+      "guerra e politica",
       "historia"
     ],
     "classificacao": 12,
@@ -3808,7 +3808,7 @@
       "comedia",
       "familia",
       "fantasia",
-      "musica"
+      "musical"
     ],
     "classificacao": 0,
     "nota": 6.1,
@@ -4167,7 +4167,7 @@
     "genero": [
       "acao",
       "terror",
-      "thriller"
+      "suspense"
     ],
     "classificacao": 14,
     "nota": 7.6,
@@ -4606,7 +4606,7 @@
     "titulo": "WWE Friday Night SmackDown",
     "tipo": "serie",
     "genero": [
-      "reality"
+      "reality show"
     ],
     "classificacao": 10,
     "nota": 7.3,
@@ -4618,9 +4618,9 @@
     "titulo": "InuYasha",
     "tipo": "serie",
     "genero": [
-      "action & adventure",
+      "acao",
       "animacao",
-      "sci-fi & fantasy"
+      "ficcao cientifica"
     ],
     "classificacao": 12,
     "nota": 7.9,
