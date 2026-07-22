@@ -17,7 +17,10 @@
         <form action="/recomendar" method="get">
 
             <div class="panel">
-                <h2 class="panel-title">Filtros</h2>
+                <div class="panel-header">
+                    <div class="title-bar"></div>
+                    <h2 class="panel-title">Filtros</h2>
+                </div>
 
                 <div class="filter-group">
                     <label class="filter-label" for="idade_slider">Classificação etária máxima</label>
@@ -26,12 +29,20 @@
                         <input type="range" id="idade_slider" min="0" max="5" step="1" value="5"
                                oninput="atualizarIdade(this.value)">
                         <input type="hidden" id="idade" name="idade" value="18">
+                        <div class="slider-ticks">
+                            <span>Livre</span>
+                            <span>10</span>
+                            <span>12</span>
+                            <span>14</span>
+                            <span>16</span>
+                            <span>18</span>
+                        </div>
                     </div>
                 </div>
 
                 <div class="filter-group">
-                    <label class="filter-label">Nota mínima (IMDb)</label>
-                    <div class="radio-tile-group">
+                    <label class="filter-label">Nota IMDb (Mínima)</label>
+                    <div class="radio-tile-group radio-imdb">
                         <label class="radio-tile-label">
                             <input type="radio" name="nota_min" value="" checked>
                             <div class="radio-tile-content">Qualquer nota</div>
@@ -52,8 +63,8 @@
                 </div>
 
                 <div class="filter-group">
-                    <label class="filter-label">Tipo de conteúdo</label>
-                    <div class="radio-tile-group">
+                    <label class="filter-label">Tipo de Conteúdo</label>
+                    <div class="radio-tile-group radio-tipo">
                         <label class="radio-tile-label">
                             <input type="radio" name="tipo" value="qualquer" checked>
                             <div class="radio-tile-content">Filmes e Séries</div>
@@ -81,27 +92,29 @@
                     </div>
                 </div>
 
-                <div class="filter-group want-to-see">
-                    <label class="filter-label">Quero ver (marque um ou mais)</label>
-                    <div class="checkbox-grid">
-                        {% for genero in generos %}
-                            <label class="checkbox-label">
-                                <input type="checkbox" name="genero_quero" value="{{ genero }}">
-                                <div class="checkbox-button">{{ nomes_genero.get(genero, genero.capitalize()) }}</div>
-                            </label>
-                        {% endfor %}
+                <div class="genres-row">
+                    <div class="filter-group want-to-see">
+                        <label class="filter-label">Quero ver (Marque um ou mais)</label>
+                        <div class="checkbox-grid">
+                            {% for genero in generos %}
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="genero_quero" value="{{ genero }}">
+                                    <div class="checkbox-button">{{ nomes_genero.get(genero, genero.capitalize()) }}</div>
+                                </label>
+                            {% endfor %}
+                        </div>
                     </div>
-                </div>
 
-                <div class="filter-group dont-want-to-see">
-                    <label class="filter-label">Não quero ver</label>
-                    <div class="checkbox-grid">
-                        {% for genero in generos %}
-                            <label class="checkbox-label">
-                                <input type="checkbox" name="genero_nao_quero" value="{{ genero }}">
-                                <div class="checkbox-button">{{ nomes_genero.get(genero, genero.capitalize()) }}</div>
-                            </label>
-                        {% endfor %}
+                    <div class="filter-group dont-want-to-see">
+                        <label class="filter-label">Não quero ver</label>
+                        <div class="checkbox-grid">
+                            {% for genero in generos %}
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="genero_nao_quero" value="{{ genero }}">
+                                    <div class="checkbox-button">{{ nomes_genero.get(genero, genero.capitalize()) }}</div>
+                                </label>
+                            {% endfor %}
+                        </div>
                     </div>
                 </div>
 
